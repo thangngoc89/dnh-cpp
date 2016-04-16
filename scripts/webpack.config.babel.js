@@ -30,12 +30,18 @@ export default ({ config, pkg }) => ({
             },
           },
         },
-        exclude: /README\.md/,
+        exclude: [
+          /README\.md/,
+          /muc\-luc\.md/,
+        ],
       },
       {
         test: /\.md$/,
         loader: "raw-loader",
-        include: /README\.md/,
+        include: [
+          /README\.md/,
+          /muc\-luc\.md/,
+        ],
       },
       {
         test: /\.css$/,
