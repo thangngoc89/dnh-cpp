@@ -4,8 +4,10 @@ import Menu from "../Menu"
 import MenuToggle from "../MenuToggle"
 import styles from "./index.css"
 import classnames from "classnames"
+
 import "normalize.css/normalize.css"
 import "github-markdown-css/github-markdown.css"
+import "hint.css/hint.css"
 
 export default class Layout extends Component {
 

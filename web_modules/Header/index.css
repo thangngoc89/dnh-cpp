@@ -1,0 +1,67 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: calc(40px + var(--xpad) * 2);
+  line-height: 40px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 250ms linear;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.dock {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: left;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+  padding: var(--xpad);
+}
+
+.iconLink {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1em;
+  padding: 0 0.5rem;
+
+  & svg {
+    height: 1.2rem;
+    width: 1.2rem;
+    transition: all 150ms linear;
+    fill: color(var(--colorSlate) a(0.8));
+
+    &:hover {
+      fill: var(--colorPrimary);
+    }
+  }
+}
+
+/*
+.iconlink:hover
+  color: $accent
+
+.iconlink
+  white-space: nowrap
+  text-decoration: none
+
+.title, .label
+  white-space: nowrap
+  margin: 0 8px
+
+  position: relative
+  top: -4px*/

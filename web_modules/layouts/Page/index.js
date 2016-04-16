@@ -2,6 +2,8 @@ import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 import invariant from "invariant"
 import "./index.css"
+import Header from "../../Header"
+import Dockable from "../../Dockable"
 
 export default class Page extends Component {
 
@@ -54,6 +56,7 @@ export default class Page extends Component {
           title={ metaTitle }
           meta={ meta }
         />
+        <Dockable dockPosition={ 80 } component={ Header } />
         <div className="markdown-body">
           {
             head.title &&
