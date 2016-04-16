@@ -3,13 +3,15 @@
   "name": "dnh-cpp",
   "homepage": "http://khoanguyen.me/dnh-cpp",
   "scripts": {
+    "git-init": "git submodule init && git submodule update",
+    "git-update": "git submodule foreach git pull origin master",
     "lint:js": "eslint --fix .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",
-    "lint": "npm run lint:js",
+    "lint": "npm run lint:js && npm run lint:css",
     "start": "phenomic start",
     "build": "phenomic build",
     "pretest": "npm run lint",
-    "test": "npm run build",
+    "test": "npm run git-update && npm run build",
     "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-cpp.git --dist dist"
   },
   "babel": {

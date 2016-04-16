@@ -6,6 +6,7 @@ import Header from "../../Header"
 import Dockable from "../../Dockable"
 import PencilIcon from "../../icons/pencil.svg"
 import Svg from "react-svg-inline"
+import findGhLink from "../../app/utils/edit-on-github"
 
 const cx = require("classnames/bind").bind(styles)
 
@@ -67,7 +68,7 @@ export default class Page extends Component {
             <h1>
               { head.title }
               <a
-                href="https://github.com/"
+                href={ findGhLink(__filename, __url) }
                 className={ cx("hint--bottom-left", "pencil") }
                 data-hint="Sửa bài viết trên Github"
                 target="_blank"

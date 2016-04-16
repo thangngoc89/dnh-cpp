@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from "react"
 import styles from "./index.css"
 import Link from "./LinkWithActiveClass"
-import toc from "./toc.json"
+import toc from "../../content/toc.json"
 
 const cx = require("classnames/bind").bind(styles)
 

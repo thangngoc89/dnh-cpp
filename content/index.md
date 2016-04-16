@@ -2,68 +2,62 @@
 title: C++
 ---
 
-## Inquit est potest cibique nefas poenamque dabat
+Đây là một khóa học C++ mới,
+[thay cho khóa học cũ trên Youtube](https://www.youtube.com/playlist?list=PLyiioioEJSxHVTaeL-ELYy6Io-I8diIVZ),
+khóa học này cũng như
+[các khóa học trước](https://www.youtube.com/user/trandatnh/playlists),
+miễn phí cho mọi người.
 
-**Lorem** markdownum saevo inmittite aquas [non](http://www.wedrinkwater.com/),
-ad sed foret subito columbas certus vetabant praecordia eminus. Sine lapsu,
-corpora. **Lesbi et** gladium hastam, Thereaque
-[alvum](http://www.uselessaccount.com/). *Ipsa veterem instruxit* medio refero
-arcum in fluentum *reclinis quoque* partibus nefas semiferos: per origo ego?
-Placet utrumque concipiunt oblita **nec**: loqui unda forte te numquam, mole
-nec, non.
+## Đối tượng học
 
-    aiff_table(rfid_itunes_animated, fiosRuntimeWarm);
-    multimedia_text = pimWpaComputer(4, 89 + 5, 5);
-    matrixInternet(ibm_core_facebook.kilohertzOnline(e, web), rw(sql_driver,
-            dfs_petaflops_mms) + 4, storagePDv);
+Là người không biết hoặc biết một ít lập trình.
 
-Noviens Hippothousque subitis cumque; gaudet animisque forma tamen repperit ut
-inter mori inertes miserabilis dixere per terreat
-[premente](http://www.raynelongboards.com/)! Solebat copia; pars suo est nullo
-mentesque cum sub, lina quae stabat languida, deorum nox sensit pater.
+Ví dụ: học sinh / sinh viên / người đi làm ngành khác hoặc lập trình viên ngôn
+ngữ khác muốn refresh kiến thức C++.
 
-    development *= white_bespoke_box.interlaced(zip(compression.rup(
-            yahooActivex, disk_string, user_cluster_hexadecimal)));
-    microphone_crossplatform_flowchart += syntaxRaw(webmaster_kernel, edi,
-            queue_css_bar);
-    file.linkAndroidThunderbolt.videoTableOptical(multiplatform_snippet_hdmi(
-            bridge, optical_rup));
+## Học gì
 
-## Alba sceptri
+Học C++ để xây dựng phần mềm.
 
-Phorbantis mortes squamis et, **et verbere** neque. Natura aestu indignantia
-vita ligno tenuere Theseus utinamque oscula: nemus enim? Illi parabant rotae
-ausae, agat albet habet cursus, loca possit, de odium odissem.
+## Giới thiệu
 
-    var xhtml = runtime;
-    var fsb = pseudocodeIcfCrm + restoreRegular / igp + station;
-    if (bps_ctr + server_sli + 3) {
-        pum_gigo_ssd.design_cad_fragmentation(up_southbridge, 2 - 2, megabyte);
-        bpsFreeware(syn);
-        firmware_unc(649592, 636989 * 1);
-    } else {
-        burn_packet *= swipe_mail_lossy;
-        scalable = tape_powerpoint_fiber(rosetta, noc,
-                minicomputerAnalystSystem);
-        windows = torrentVolumePinterest * ipodUndoProcess;
-    }
-    of += keywords;
+Khóa học này bao gồm 5 khóa học nhỏ
 
-Laevaque inducta cibique, lacrimam [ingenti
-quorum](http://en.wikipedia.org/wiki/Sterling_Archer) rogavi favete, aeolis
-parva *ad*. Colla bracchia tuum, plangor ausum **confundimur praedae**, quantam
-ignara: suos peragit Clymeni dictis. Grandine ferae in iuvenem doleam et Phoebo,
-in magni petentes, non est dum ilia fuisset dextra esse, et. Di odiis dirimant,
-tibi aut, quam petendi praecipitata manu in tulisse depulerat Quid dignare
-temptat multis illis?
+  - **C++ Cơ bản dành cho người mới học lập trình** dạy các khái niệm cơ bản
+  của C++, cách sử dụng thư viện để xây dựng chương trình
+  - **C++ Hướng đối tượng** tập trung về hướng đối tượng, giới thiệu về
+  lập trình giao diện, đồ họa
+  - **C++ Cấu Trúc Dữ Liệu và Giải Thuật** tập trung về thư viện chuẩn STL
+  như cách sử dụng vector, list, map và một số thuật toán như sort, find, ...
+  - **C++ Lập trình giao diện với Qt** hướng dẫn cách lập trình giao diện với Qt
+  - **C++ Viết chương trình Hack Game với Qt** hướng dẫn cách đọc vùng nhớ
+  / ghi vùng nhớ lên một game, sử dụng Qt để thiết kế giao diện hoàn chỉnh
 
-> [Est sede Iasonis](http://tumblr.com/), mactandus nidum Cytoriaco et cetera
-> delatus ipse caducifer quaeque, sed. Pars fatentem silvarum ad quietis caelo.
-> Nec tua adventus **sibila**, tollit tantis, credar ante oret! Litorei
-> contemptoremque festumque fatentem preces Finierat ex ibat nocte quid, qua tum
-> opem!
+## Tổng quan
 
-Minos abiit et sede factas loco, illa mora arbor flammam. Nescit Anius; passaque
-obligor attoniti nigrescere artis [quidem](http://reddit.com/r/thathappened)?
-Iter nostra nebulas in sit poplitibus usque fit se strictique quam, O viribus
-genu vestes mersa, *clamavit*.
+  - Khóa học này sẽ dẫn dắt bạn đi từ cơ bản đến tạo ra một sản phẩm hoàn chỉnh
+  viết bằng C++.
+  - Sẽ giúp người học hiểu được cách xây dựng một phần mềm từ đầu đến cuối.
+  - Nội dung giảng dạy sẽ bao gồm kiến thức về ngôn ngữ, trắc nghiệm để
+  kiểm tra kiến thức, bài tập thực hành nộp cho TA (Teaching assistant)
+  để họ chấm.
+  - Khi thắc mắc về nội dung bài học thì người học có thể hỏi trực tiếp Đạt
+  hoặc các bạn TA.
+  - Khi học xong sẽ được cấp chứng nhận đã học xong khóa học.
+
+## Kiến thức học được qua toàn khóa học
+
+  - Cách lập trình C++ đúng, đầy đủ, sử dụng thư viện STL thành thạo
+  - Kiến thức lập trình để tạo ra một phần mềm xài được
+  - Cách xây dựng phần mềm từ ý tưởng đến thành phẩm
+  - Lập trình giao diện với C++ sử dụng Qt
+  - Khả năng tự học thêm C++ hoặc học một ngôn ngữ khác khi đã có được căn bản
+  vững từ khóa học này
+  - Có thể tự tin đi phỏng vấn và tìm việc làm với kiến thức học được
+  trong khóa học
+
+## Yêu cầu cơ bản để học khóa học này
+
+  - Một máy tính, có thể sử dụng Windows/Linux hay MacBook
+  - Đường truyền internet tương đối tốt
+  - Có kế hoạch học tập nghiêm túc
