@@ -34,7 +34,7 @@
 }
 
 .toggleVisible {
-  /*width: calc(var(--navWidth) - 25px);*/
-  /*background-color: var(--colorBg);*/
+  /* width: calc(var(--navWidth) - 25px);
+  background-color: var(--colorBg); */
   transition: color 400ms linear;
 }

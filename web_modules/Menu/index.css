@@ -1,7 +1,6 @@
 :root {
- --pad: 24px;
+  --pad: 24px;
 }
-
 
 .toc-menu {
   position: relative;
@@ -10,7 +9,8 @@
   font-size: 13px;
   transition: opacity 1500ms linear;
 
-  & ul, & li {
+  & ul,
+  & li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -61,21 +61,24 @@
   padding-left: calc(var(--pad) + 8px * 2);
 }
 
-
-.link, .link:visited {
+.link,
+.link:visited {
   color: var(--colorSlate);
   text-decoration: none;
   position: relative;
 }
 
-.link, .hlink {
+.link,
+.hlink {
   transition: background-color 200ms linear, color 500ms linear, box-shadow 200ms linear;
   box-shadow: inset -2px 0 color(var(--colorAccent) a(0));
   box-sizing: content-box;
 
   &:hover {
     background-color: color(var(--colorAccent) a(0.02));
-    color: darken($slate, 20%);
+
+    /* color: color(darken(var(--colorSlate), 20%)) */
+    color: #242a31;
     transition: box-shadow 200ms linear;
   }
 
@@ -107,7 +110,7 @@
   .menuVisible {
     transform: translate3d(0, 0, 0);
 
-    &:after {
+    &::after {
       content: '';
       display: block;
       height: 64px;

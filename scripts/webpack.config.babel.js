@@ -36,7 +36,7 @@ export default ({ config, pkg }) => ({
         loader: ExtractTextPlugin.extract(
           "style-loader",
           "css-loader" + (
-            "?modules"+
+            "?sourceMap&-minimize&modules"+
             "&localIdentName=" +
             (
               process.env.NODE_ENV === "production"
@@ -52,7 +52,7 @@ export default ({ config, pkg }) => ({
         test: /\.css$/,
         loader: ExtractTextPlugin.extract(
           "style-loader",
-          "css-loader!postcss-loader",
+          "css-loader?sourceMap&-minimize!postcss-loader",
         ),
         include: /node_modules/,
       },
@@ -71,8 +71,8 @@ export default ({ config, pkg }) => ({
 
   postcss: () => [
     require("postcss-cssnext")({
-      browsers: [ "last 2 versions", "ie >= 8", "iOS >= 6", "Android >= 4" ],
       features: {
+        autoprefixer: false,
         customProperties: {
           variables: {
             colorBg: "white",
@@ -98,6 +98,21 @@ export default ({ config, pkg }) => ({
     }),
     require("postcss-browser-reporter")(),
     require("postcss-reporter")(),
+    require("cssnano")({
+      autoprefixer: {
+        add: true,
+        remove: true,
+        browsers: [ "last 2 versions", "ie >= 9", "iOS >= 6", "Android >= 4" ],
+      },
+      discardComments: {
+        removeAll: true,
+      },
+      discardUnused: false,
+      mergeIdents: false,
+      reduceIdents: false,
+      safe: true,
+      sourcemap: true,
+    }),
   ],
 
   plugins: [
