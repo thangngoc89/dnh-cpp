@@ -63,10 +63,16 @@ export default ({ config, pkg }) => ({
         include: /node_modules/,
       },
       {
-        test: /\.(html|ico|jpe?g|png|gif)$/,
-        loader: "file-loader" +
-          "?name=[path][name].[ext]&context=" +
-          path.join(config.cwd, config.source),
+        test: /content(\/|\\).*\.(html|ico|jpe?g|png|gif)$/,
+        loader: "file-loader?name=[path][name].[ext]&context=./content",
+      },
+      {
+        test: /web_modules(\/|\\).*\.(html|ico|jpe?g|png|gif)$/,
+        loader: "file-loader",
+        query: {
+          name: "images/[path][name].[ext]",
+          context: "./web_modules",
+        },
       },
       {
         test: /\.svg$/,

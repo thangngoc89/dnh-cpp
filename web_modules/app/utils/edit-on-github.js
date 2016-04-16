@@ -13,7 +13,10 @@ export default function(filename, url) {
 
   if (url.startsWith("/cpp-co-ban/")) {
     prefix = "cppcoban/blob/master"
-    projectPath = url.split("/").slice(2, -1).join("/") + ".md"
+    projectPath = filename
+      .split("/")
+      .filter((item, i) => i !== 0) // remove first item
+      .join("/")
   }
 
   return "https://github.com/daynhauhoc/" + prefix + "/" + projectPath
