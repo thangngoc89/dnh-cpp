@@ -1,10 +1,11 @@
 import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
-
-import Header from "../Header"
-import Footer from "../Footer"
-
+import Menu from "../Menu"
+import MenuToggle from "../MenuToggle"
 import styles from "./index.css"
+import classnames from "classnames"
+import "normalize.css/normalize.css"
+import "github-markdown-css/github-markdown.css"
 
 export default class Layout extends Component {
 
@@ -16,24 +17,43 @@ export default class Layout extends Component {
     metadata: PropTypes.object.isRequired,
   };
 
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      menuVisible: true,
+    }
+  }
+  onMenuToggleClick = () => {
+    this.setState({
+      menuVisible: !this.state.menuVisible,
+    })
+  }
+
   render() {
     const {
       pkg,
     } = this.context.metadata
 
     return (
-      <div className={ styles.layout }>
+      <div className={ styles.docLayout }>
         <Helmet
           meta={ [
             { property: "og:site_name", content: pkg.name },
-            { name: "twitter:site", content: `@${ pkg.twitter }` },
           ] }
         />
-        <Header />
-        <div className={ styles.content }>
+        <div
+          className={ classnames(styles.body, {
+            [styles.bodyVisible]: this.state.menuVisible,
+          }) }
+        >
           { this.props.children }
         </div>
-        <Footer />
+        <Menu visible={ this.state.menuVisible } />
+        <MenuToggle
+          menuVisible={ this.state.menuVisible }
+          handleToggle={ this.onMenuToggleClick }
+        />
       </div>
     )
   }

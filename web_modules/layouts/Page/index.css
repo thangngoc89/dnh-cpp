@@ -1,0 +1,40 @@
+:global .markdown-body {
+  margin: 0 auto;
+  max-width: 48rem;
+  overflow: visible;
+  font-family: "Source Sans Pro" !important;
+
+  & h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+  }
+
+  & a {
+    font-weight: bold;
+    color: var(--colorPrimary);
+  }
+
+  /*
+   * Update heading styles
+   */
+
+  & h2 {
+    font-weight: 300;
+    font-size: 2em;
+    color: var(--colorAccent);
+  }
+
+  & h1 {
+    font-weight: 300;
+    color: var(--colorAccent);
+    margin-bottom: .6em;
+    padding-bottom: .6em;
+    border-bottom: solid 1px #eee;
+  }
+
+  & h4 {
+    font-size: 1.15em;
+  }
+}

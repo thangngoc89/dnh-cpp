@@ -46,6 +46,15 @@ export default ({ config, pkg }) => ({
           ) + "!" +
           "postcss-loader",
         ),
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        loader: ExtractTextPlugin.extract(
+          "style-loader",
+          "css-loader!postcss-loader",
+        ),
+        include: /node_modules/,
       },
       {
         test: /\.(html|ico|jpe?g|png|gif)$/,
@@ -61,8 +70,32 @@ export default ({ config, pkg }) => ({
   },
 
   postcss: () => [
-    require("stylelint")(),
-    require("postcss-cssnext")({ browsers: "last 2 versions" }),
+    require("postcss-cssnext")({
+      browsers: [ "last 2 versions", "ie >= 8", "iOS >= 6", "Android >= 4" ],
+      features: {
+        customProperties: {
+          variables: {
+            colorBg: "white",
+            colorBlack: "#111",
+            colorSlate: "#505d6b",
+            colorAccent: "#4078c0",
+            colorPrimary: " #1abc9c",
+            navWidth: "250px",
+            collapsedNavWidth: "64px",
+            xpad: "24px",
+            line: "rgba(17, 17, 17, 0.1)", // color(#111 a(0.1))
+          },
+        },
+        customMedia: {
+          extensions: {
+            "--sm": "screen and (min-width: 35.5rem)",
+            "--md": "screen and (min-width: 48rem)",
+            "--lg": "screen and (min-width: 64rem)",
+            "--xl": "screen and (min-width: 80rem)",
+          },
+        },
+      },
+    }),
     require("postcss-browser-reporter")(),
     require("postcss-reporter")(),
   ],

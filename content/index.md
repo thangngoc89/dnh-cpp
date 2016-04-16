@@ -1,8 +1,6 @@
 ---
-title: Phenomic default boilerplate
+title: C++
 ---
-
-# Et manat hoc dea fratri magnas
 
 ## Inquit est potest cibique nefas poenamque dabat
 

@@ -1,8 +1,6 @@
 ---
-title: Chapter 2
+title: Chapter 1
 ---
-
-# Si attonitus onerosa legebantur omnem et censu
 
 ## Quem luce
 

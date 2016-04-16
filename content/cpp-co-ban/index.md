@@ -2,8 +2,6 @@
 title: Lorem ipsum stuff
 ---
 
-# Tuos retinens elisarum ramis nec setius omnes
-
 ## Cedentique amas temerarius telum veluti
 
 Lorem markdownum dixit; pontus hinc has aeriaeque vestri bracchia Sisyphio

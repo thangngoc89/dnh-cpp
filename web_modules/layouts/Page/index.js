@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 import invariant from "invariant"
+import "./index.css"
 
 export default class Page extends Component {
 
@@ -53,18 +54,18 @@ export default class Page extends Component {
           title={ metaTitle }
           meta={ meta }
         />
-
-        {
-          head.title &&
-          <h1>{ head.title }</h1>
-        }
-        {
-          body &&
-          <div
-            dangerouslySetInnerHTML={ { __html: body } }
-          />
-        }
-        { this.props.children }
+        <div className="markdown-body">
+          {
+            head.title &&
+            <h1>{ head.title }</h1>
+          }
+          {
+            body &&
+            <div
+              dangerouslySetInnerHTML={ { __html: body } }
+            />
+          }
+        </div>
       </div>
     )
   }
