@@ -9,6 +9,10 @@
     color: var(--colorPrimary);
   }
 
+  & img {
+    display: block;
+    margin: auto;
+  }
   /*
    * Update heading styles
    */
