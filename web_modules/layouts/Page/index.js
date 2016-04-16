@@ -1,9 +1,13 @@
 import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 import invariant from "invariant"
-import "./index.css"
+import styles from "./index.css"
 import Header from "../../Header"
 import Dockable from "../../Dockable"
+import PencilIcon from "../../icons/pencil.svg"
+import Svg from "react-svg-inline"
+
+const cx = require("classnames/bind").bind(styles)
 
 export default class Page extends Component {
 
@@ -57,10 +61,20 @@ export default class Page extends Component {
           meta={ meta }
         />
         <Dockable dockPosition={ 80 } component={ Header } />
-        <div className="markdown-body">
+        <article className="markdown-body">
           {
             head.title &&
-            <h1>{ head.title }</h1>
+            <h1>
+              { head.title }
+              <a
+                href="https://github.com/"
+                className={ cx("hint--bottom-left", "pencil") }
+                data-hint="Sửa bài viết trên Github"
+                target="_blank"
+              >
+                <Svg svg={ PencilIcon } />
+              </a>
+            </h1>
           }
           {
             body &&
@@ -68,7 +82,7 @@ export default class Page extends Component {
               dangerouslySetInnerHTML={ { __html: body } }
             />
           }
-        </div>
+        </article>
       </div>
     )
   }
