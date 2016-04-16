@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "dnh-cpp",
-  "homepage": "http://cpp.daynhauhoc.com",
+  "homepage": "http://khoanguyen.me/dnh-cpp",
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",
@@ -11,9 +11,6 @@
     "pretest": "npm run lint",
     "test": "npm run build",
     "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-blog.git --dist dist"
-  },
-  "phenomic": {
-    "CNAME": true
   },
   "babel": {
     "presets": [
