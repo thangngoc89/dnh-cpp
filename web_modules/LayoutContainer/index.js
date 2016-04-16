@@ -8,6 +8,7 @@ import classnames from "classnames"
 import "normalize.css/normalize.css"
 import "github-markdown-css/github-markdown.css"
 import "hint.css/hint.css"
+import "highlight.js/styles/github.css"
 
 export default class Layout extends Component {
 
