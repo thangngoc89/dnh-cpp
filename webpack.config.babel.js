@@ -151,7 +151,12 @@ export const makeConfig = (config = {}) => {
         autoprefixer: {
           add: true,
           remove: true,
-          browsers: [ "last 2 versions", "ie >= 9", "iOS >= 6", "Android >= 4" ],
+          browsers: [
+            "last 2 versions",
+            "ie >= 9",
+            "iOS >= 6",
+            "Android >= 4",
+          ],
         },
         discardComments: {
           removeAll: true,
