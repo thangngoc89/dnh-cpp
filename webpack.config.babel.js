@@ -5,10 +5,6 @@ import ExtractTextPlugin from "extract-text-webpack-plugin"
 
 import pkg from "./package.json"
 
-// note that this webpack file is exporting a "makeConfig" function
-// which is used for phenomic to build dynamic configuration based on your needs
-// see the end of the file if you want to export a default config
-// (eg: if you share your config for phenomic and other stuff)
 export const makeConfig = (config = {}) => {
   return {
     ...config.dev && {
@@ -192,6 +188,3 @@ export const makeConfig = (config = {}) => {
     resolveLoader: { root: [ path.join(__dirname, "node_modules") ] },
   }
 }
-
-// you might want to export a default config for another usage ?
-// export default makeConfig()
