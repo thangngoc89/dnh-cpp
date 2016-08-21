@@ -5,6 +5,10 @@ import ExtractTextPlugin from "extract-text-webpack-plugin"
 
 import pkg from "./package.json"
 
+require.extensions[".css"] = () => {
+  return
+}
+
 export const makeConfig = (config = {}) => {
   return {
     ...config.dev && {
