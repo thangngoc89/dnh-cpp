@@ -59,7 +59,7 @@
     "history": "^2.0.0",
     "invariant": "^2.1.1",
     "json-loader": "^0.5.2",
-    "phenomic": "^0.10.2",
+    "phenomic": "^0.15.0",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
     "postcss-loader": "^0.7.0",
@@ -67,7 +67,7 @@
     "raw-loader": "^0.5.1",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
-    "react-helmet": "^2.1.0",
+    "react-helmet": "^3.0.0",
     "react-redux": "^4.0.0",
     "react-router": "^2.2.2",
     "react-svg-inline": "^1.1.0",
@@ -77,7 +77,7 @@
     "stylelint": "^5.4.0",
     "stylelint-config-standard": "^5.0.0",
     "webpack": "^1.12.1",
-    "whatwg-fetch": "^0.11.0"
+    "whatwg-fetch": "^1.0.0"
   },
   "dependencies": {
     "gh-pages": "^0.11.0",
