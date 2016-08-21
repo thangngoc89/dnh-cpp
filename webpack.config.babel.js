@@ -5,10 +5,6 @@ import ExtractTextPlugin from "extract-text-webpack-plugin"
 
 import pkg from "./package.json"
 
-require.extensions[".css"] = () => {
-  return
-}
-
 export const makeConfig = (config = {}) => {
   return {
     ...config.dev && {
@@ -96,6 +92,8 @@ export const makeConfig = (config = {}) => {
         },
       ],
     },
+
+    externals: /^[A-Za-z0-9-_].*[^\.][^c][^s][^s]$/,
 
     phenomic: {
       contentLoader: {
