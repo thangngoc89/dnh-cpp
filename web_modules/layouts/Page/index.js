@@ -7,6 +7,7 @@ import Dockable from "../../Dockable"
 import PencilIcon from "../../icons/pencil.svg"
 import Svg from "react-svg-inline"
 import findGhLink from "../../app/utils/edit-on-github"
+import { BodyContainer } from "phenomic"
 
 const cx = require("classnames/bind").bind(styles)
 
@@ -79,9 +80,7 @@ export default class Page extends Component {
           }
           {
             body &&
-            <div
-              dangerouslySetInnerHTML={ { __html: body } }
-            />
+            <BodyContainer>{ body }</BodyContainer>
           }
         </article>
       </div>
