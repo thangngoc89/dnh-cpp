@@ -59,7 +59,7 @@
     "history": "^2.0.0",
     "invariant": "^2.1.1",
     "json-loader": "^0.5.2",
-    "phenomic": "^0.10.2",
+    "phenomic": "^0.11.0",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
     "postcss-loader": "^0.7.0",
