@@ -6,12 +6,12 @@ cache:
 
 env-info: 
   script: 
-   - node -v
-   - npm -v
+    - node -v
+    - npm -v
 build:
   script:
-   - npm install
-   - npm test
+    - npm install
+    - npm test
   artifacts:
     paths:
       - dist
