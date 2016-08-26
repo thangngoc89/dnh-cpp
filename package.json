@@ -10,7 +10,7 @@
     "prebuild": "npm run lint && npm run fetch",
     "build": "phenomic build",
     "test": "jest",
-    "fetch": "babel-node scripts/content/fetch-data.js"
+    "fetch": "rm -rf content/generated && babel-node scripts/content/fetch-data.js"
   },
   "jest": {
     "automock": false
@@ -55,7 +55,6 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.1",
     "fs-extra": "^0.30.0",
-    "fs-promise": "^0.5.0",
     "github-markdown-css": "^2.2.1",
     "highlight.js": "^9.3.0",
     "hint.css": "^2.2.1",

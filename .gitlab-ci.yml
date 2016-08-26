@@ -4,14 +4,13 @@ cache:
   paths:
   - node_modules/
 
-env-info: 
-  script: 
-    - node -v
-    - npm -v
 build:
   script:
+    - node -v
+    - npm -v
     - npm install
     - npm test
+    - npm run build
   artifacts:
     paths:
       - dist
