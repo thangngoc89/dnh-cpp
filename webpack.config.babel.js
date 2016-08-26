@@ -98,7 +98,7 @@ export const makeConfig = (config = {}) => {
     phenomic: {
       contentLoader: {
         context: path.join(__dirname, config.source),
-        // renderer: (text) => html
+        renderer: (html) => html,
         feedsOptions: {
           title: pkg.name,
           site_url: pkg.homepage,
