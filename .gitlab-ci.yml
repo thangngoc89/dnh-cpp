@@ -4,17 +4,15 @@ cache:
   paths:
   - node_modules/
 
-all_tests:
+build:
   script:
    - npm install
    - npm test
 
 pages:
-  stage: deploy
   image: node:6
-  script:
-    - npm install
-    - npm test
+  dependencies:
+    - build
   artifacts:
     paths:
       - dist
