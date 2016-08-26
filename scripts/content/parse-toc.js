@@ -1,7 +1,5 @@
 const omitEmpty = require("omit-empty")
 
-let first = true
-
 export default function processMd(data) {
   let headingPos = 0
   const linkRegex = /\[([^\]]+)\]\((.+)\)/
@@ -23,9 +21,7 @@ export default function processMd(data) {
         name: line.substring(4, line.length),
         children: [],
         level: 1,
-        ...(first && { toggled: true }),
       })
-      first = false
     }
     // A link
     else if (linkRegex.test(line)) {
