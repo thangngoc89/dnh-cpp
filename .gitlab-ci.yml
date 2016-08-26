@@ -18,8 +18,6 @@ build:
 
 pages:
   image: node:6
-  dependencies:
-    - build
   artifacts:
     paths:
       - dist
