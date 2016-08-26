@@ -5,8 +5,7 @@ import treeStyle from "./treeStyle"
 import decorators from "./decorators"
 // import Link from "./LinkWithActiveClass"
 import data from "../../content/toc.json"
-
-console.log(decorators)
+import { browserHistory } from "phenomic/lib/client"
 
 const cx = require("classnames/bind").bind(styles)
 
@@ -25,12 +24,17 @@ export default class Menu extends Component {
       // eslint-disable-next-line
       this.state.cursor.active = false
     }
+
     node.active = true
     console.log(node)
     if (node.children) {
       node.toggled = toggled
     }
     this.setState({ cursor: node })
+
+    if (node.path) {
+      browserHistory.replace(node.path)
+    }
   }
 
   render() {

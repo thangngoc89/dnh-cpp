@@ -15,6 +15,9 @@
   "jest": {
     "automock": false
   },
+  "phenomic": {
+    "assets": false
+  },
   "eslintConfig": {
     "parser": "babel-eslint",
     "env": {
