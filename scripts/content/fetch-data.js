@@ -2,14 +2,15 @@ import got from "got"
 import processMd from "./parse-toc"
 import generateSlug from "./generate-slug"
 import downloadPost from "./download-post"
+import simplifyUnicode from "vietnamese-unicode-toolkit"
 import fsp from "fs-promise"
 import { resolve } from "path"
 import _ from "lodash"
 
 got("http://daynhauhoc.com/raw/29429")
-  .then((res) => {
+  .then((res) => simplifyUnicode(res.body))
+  .then((data) => {
     // We don't want any part before this line
-    let data = res.body
     const startPos = data.indexOf("### Giới thiệu tổng quan khóa học")
 
     data = data.substring(startPos, data.length)

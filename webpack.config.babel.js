@@ -7,9 +7,7 @@ import pkg from "./package.json"
 
 export const makeConfig = (config = {}) => {
   return {
-    ...config.dev && {
-      devtool: "#cheap-module-eval-source-map",
-    },
+    devtool: "#inline-source-map",
     module: {
       noParse: /\.min\.js/,
       loaders: [

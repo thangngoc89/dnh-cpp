@@ -1,13 +1,13 @@
 {
   "private": true,
   "name": "dnh-cpp",
-  "homepage": "http://khoanguyen.me/dnh-cpp",
+  "homepage": "http://dnh-cpp.daynhauhoc.com",
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",
     "lint": "npm run lint:js && npm run lint:css",
     "start": "phenomic start",
-    "prebuild": "npm run lint && npm run init",
+    "prebuild": "npm run lint && npm run fetch",
     "build": "phenomic build",
     "test": "jest",
     "fetch": "babel-node scripts/content/fetch-data.js"
@@ -81,6 +81,7 @@
     "style-loader": "^0.12.3",
     "stylelint": "^5.4.0",
     "stylelint-config-standard": "^5.0.0",
+    "vietnamese-unicode-toolkit": "0.0.1",
     "webpack": "^1.12.1",
     "whatwg-fetch": "^1.0.0"
   },
