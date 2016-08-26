@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "dnh-cpp",
-  "homepage": "http://dnh-cpp.daynhauhoc.com",
+  "homepage": "http://daynhauhoc.com/dnh-cpp",
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",

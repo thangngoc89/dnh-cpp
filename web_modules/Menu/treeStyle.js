@@ -61,14 +61,14 @@ export default {
           left: "-21px",
         },
         titleLv0: {
-          fontSize: "1.5em",
+          fontSize: "2em",
           fontWeight: 300,
           marginBottom: "1em",
         },
         titleLv1: {
-          // fontSize: "1.1em",
+          fontSize: "1.1em",
           fontColor:  "#111",
-          fontWeight: 700,
+          fontWeight: 500,
         },
         title: {
           lineHeight: "24px",
