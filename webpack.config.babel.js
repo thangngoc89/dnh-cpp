@@ -93,7 +93,7 @@ export const makeConfig = (config = {}) => {
       ],
     },
 
-    externals: /^[A-Za-z0-9-_].*[^\.][^c][^s][^s]$/,
+    externals: [],
 
     phenomic: {
       contentLoader: {

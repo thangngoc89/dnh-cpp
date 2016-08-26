@@ -7,20 +7,21 @@
     "lint:css": "stylelint \"web_modules/**/*.css\"",
     "lint": "npm run lint:js && npm run lint:css",
     "start": "phenomic start",
+    "prebuild": "npm run lint && npm run init",
     "build": "phenomic build",
-    "pretest": "npm run lint",
-    "test": "npm run build",
-    "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-cpp.git --dist dist"
+    "test": "jest",
+    "init": "babel-node scripts/content/generate-toc.js"
   },
-  "babel": {
-    "presets": [
-      "react",
-      "es2015",
-      "stage-1"
-    ]
+  "jest": {
+    "automock": false
   },
   "eslintConfig": {
     "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "jest": true,
+      "node": true
+    },
     "extends": [
       "eslint-config-i-am-meticulous/react"
     ],
@@ -55,6 +56,7 @@
     "hint.css": "^2.2.1",
     "history": "^2.0.0",
     "invariant": "^2.1.1",
+    "jest-cli": "^14.1.0",
     "json-loader": "^0.5.2",
     "phenomic": "^0.15.0",
     "postcss-browser-reporter": "^0.4.0",

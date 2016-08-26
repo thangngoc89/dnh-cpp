@@ -1,7 +1,8 @@
 import React, { Component, PropTypes } from "react"
 import styles from "./index.css"
-import Link from "./LinkWithActiveClass"
-import toc from "../../content/toc.json"
+import { Treebeard } from "react-treebeard"
+// import Link from "./LinkWithActiveClass"
+import data from "../../content/toc.json"
 
 const cx = require("classnames/bind").bind(styles)
 
@@ -10,6 +11,26 @@ export default class Menu extends Component {
     visible: PropTypes.bool.isRequired,
   };
 
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  handleOnToggle = (node, toggled) => {
+    // if (this.state.cursor) {
+    //   this.setState({
+    //     cursor: {
+    //       active: false,
+    //     },
+    //   })
+    // }
+    // node.active = true
+    if (node.children) {
+      node.toggled = toggled
+    }
+    this.setState({ cursor: node })
+  }
+
   render() {
     const wrapperClass = cx("menu", "toc-menu", {
       menuVisible: this.props.visible,
@@ -17,56 +38,10 @@ export default class Menu extends Component {
 
     return (
       <div className={ wrapperClass }>
-      <ul>
-        {
-          Object.keys(toc).map((lv1) => {
-            const lv2s = toc[lv1]
-
-            return (
-              <li
-                key={ lv1 }
-                className={ cx("level-1", {
-                  "parent": lv2s,
-                }) }
-              >
-                {
-                  typeof lv2s === "string" &&
-                  <Link
-                    to={ toc[lv1] }
-                    className={ cx("title", "link") }
-                  >
-                    { lv1 }
-                  </Link>
-                }
-                {
-                  typeof lv2s === "object" && lv2s &&
-                  <span className={ cx("title", "link") }>{ lv1 }</span>
-                }
-                {
-                  typeof lv2s === "object" && lv2s &&
-                  <ul>
-                    {
-                      Object.keys(lv2s).map((lv2) => (
-                        <li
-                          key={ lv2 }
-                          className={ cx("level-2") }
-                        >
-                          <Link
-                            className={ cx("title", "link") }
-                            to={ lv2s[lv2] }
-                          >
-                            { lv2 }
-                          </Link>
-                        </li>
-                      ))
-                    }
-                  </ul>
-                }
-              </li>
-            )
-          })
-        }
-      </ul>
+        <Treebeard
+          data={ data }
+          onToggle={ this.handleOnToggle }
+        />
       </div>
     )
   }
