@@ -4,45 +4,37 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "29402",
-          "level": 2,
+          "id": 29402,
           "name": "0.0 Giới thiệu về series tutorial"
         },
         Object {
-          "id": "29425",
-          "level": 2,
+          "id": 29425,
           "name": "0.1 Giới thiệu về ngôn ngữ lập trình"
         },
         Object {
-          "id": "29448",
-          "level": 2,
+          "id": 29448,
           "name": "0.2 Giới thiệu về ngôn ngữ lập trình C++"
         },
         Object {
-          "id": "29449",
-          "level": 2,
+          "id": 29449,
           "name": "0.3 Các công đoạn phát triển của một chương trình C++"
         },
         Object {
-          "id": "29503",
-          "level": 2,
+          "id": 29503,
           "name": "0.4 Giới thiệu môi trường phát triển ứng dụng C++"
         },
         Object {
           "children": Array [
             Object {
-              "id": "24768",
-              "level": 3,
+              "id": 24768,
               "name": "Cài đặt Visual Studio 2015 để lập trình C++ trên Windows"
             },
             Object {
-              "id": "24606",
-              "level": 3,
+              "id": 24606,
               "name": "Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X"
             },
             Object {
-              "id": "24563",
-              "level": 3,
+              "id": 24563,
               "name": "Cài đặt Code::blocks để lập trình C/C++ trên Ubuntu/Linux"
             }
           ],
@@ -56,58 +48,47 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "29504",
-          "level": 2,
+          "id": 29504,
           "name": "1.0 Viết chương trình đầu tiên"
         },
         Object {
-          "id": "29527",
-          "level": 2,
+          "id": 29527,
           "name": "1.1 Cấu trúc cơ bản của một chương trình C++"
         },
         Object {
-          "id": "29575",
-          "level": 2,
+          "id": 29575,
           "name": "1.2 Lệnh, khối lệnh, từ khóa"
         },
         Object {
-          "id": "29796",
-          "level": 2,
+          "id": 29796,
           "name": "1.3 Sử dụng các lệnh liên quan đến xuất dữ liệu"
         },
         Object {
-          "id": "29935",
-          "level": 2,
+          "id": 29935,
           "name": "1.4 Biến và các kiểu dữ liệu trong C++"
         },
         Object {
-          "id": "29936",
-          "level": 2,
+          "id": 29936,
           "name": "1.5 Nhập và xuất dữ liệu"
         },
         Object {
-          "id": "29938",
-          "level": 2,
+          "id": 29938,
           "name": "1.6 Hằng số"
         },
         Object {
-          "id": "29939",
-          "level": 2,
+          "id": 29939,
           "name": "1.7 Phạm vi của biến"
         },
         Object {
-          "id": "29944",
-          "level": 2,
+          "id": 29944,
           "name": "1.8 Các phép toán cơ bản"
         },
         Object {
-          "id": "29945",
-          "level": 2,
+          "id": 29945,
           "name": "1.9 Toán tử tăng giảm"
         },
         Object {
-          "id": "29574",
-          "level": 2,
+          "id": 29574,
           "name": "1.10 Độ ưu tiên của các toán tử"
         }
       ],
@@ -117,23 +98,19 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "29992",
-          "level": 2,
+          "id": 29992,
           "name": "2.0 Boolean"
         },
         Object {
-          "id": "30007",
-          "level": 2,
+          "id": 30007,
           "name": "2.1 Giới thiệu một số cấu trúc điều khiển"
         },
         Object {
-          "id": "30008",
-          "level": 2,
+          "id": 30008,
           "name": "2.2 if statements"
         },
         Object {
-          "id": "30009",
-          "level": 2,
+          "id": 30009,
           "name": "2.3 switch case statements"
         }
       ],
@@ -143,23 +120,19 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "30011",
-          "level": 2,
+          "id": 30011,
           "name": "3.0 Vòng lặp while"
         },
         Object {
-          "id": "30012",
-          "level": 2,
+          "id": 30012,
           "name": "3.1 Vòng lặp do-while"
         },
         Object {
-          "id": "30013",
-          "level": 2,
+          "id": 30013,
           "name": "3.2 Vòng lặp for"
         },
         Object {
-          "id": "30014",
-          "level": 2,
+          "id": 30014,
           "name": "3.3 từ khóa break và continue"
         }
       ],
@@ -169,28 +142,23 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "30016",
-          "level": 2,
+          "id": 30016,
           "name": "4.0 Sử dụng thư viện cstdint"
         },
         Object {
-          "id": "30018",
-          "level": 2,
+          "id": 30018,
           "name": "4.1 Kiểu kí tự"
         },
         Object {
-          "id": "30019",
-          "level": 2,
+          "id": 30019,
           "name": "4.2 Ép kiểu dữ liệu"
         },
         Object {
-          "id": "30020",
-          "level": 2,
+          "id": 30020,
           "name": "4.3 auto và decltype"
         },
         Object {
-          "id": "30022",
-          "level": 2,
+          "id": 30022,
           "name": "4.4 Địa chỉ của biến"
         }
       ],
@@ -200,28 +168,23 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "30080",
-          "level": 2,
+          "id": 30080,
           "name": "5.0 Mảng một chiều"
         },
         Object {
-          "id": "30082",
-          "level": 2,
+          "id": 30082,
           "name": "5.1 Các thao tác cơ bản với mảng một chiều"
         },
         Object {
-          "id": "30083",
-          "level": 2,
+          "id": 30083,
           "name": "5.2 Thư viện array trong STL"
         },
         Object {
-          "id": "30085",
-          "level": 2,
+          "id": 30085,
           "name": "5.3 Mảng hai chiều"
         },
         Object {
-          "id": "30086",
-          "level": 2,
+          "id": 30086,
           "name": "5.4 Các thao tác cơ bản với mảng hai chiều"
         }
       ],
@@ -231,18 +194,15 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "30090",
-          "level": 2,
+          "id": 30090,
           "name": "6.0 Mảng kí tự"
         },
         Object {
-          "id": "30091",
-          "level": 2,
+          "id": 30091,
           "name": "6.1 Các thao tác cơ bản với mảng kí tự"
         },
         Object {
-          "id": "30092",
-          "level": 2,
+          "id": 30092,
           "name": "6.2 Thư viện string trong C++"
         }
       ],
@@ -252,33 +212,27 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "30132",
-          "level": 2,
+          "id": 30132,
           "name": "7.0 Làm quen với khái niệm function"
         },
         Object {
-          "id": "30133",
-          "level": 2,
+          "id": 30133,
           "name": "7.1 Thiết kế chương trình dựa trên khái niệm function"
         },
         Object {
-          "id": "30319",
-          "level": 2,
+          "id": 30319,
           "name": "7.2 Truyền đối số cho hàm là giá trị hoặc tham chiếu"
         },
         Object {
-          "id": "30381",
-          "level": 2,
+          "id": 30381,
           "name": "7.3 Hàm trả về giá trị hoặc tham chiếu"
         },
         Object {
-          "id": "30382",
-          "level": 2,
+          "id": 30382,
           "name": "7.4 Tham số mặc định, tham số hằng"
         },
         Object {
-          "id": "30477",
-          "level": 2,
+          "id": 30477,
           "name": "7.5 Function overloading"
         }
       ],
@@ -288,63 +242,51 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "30541",
-          "level": 2,
+          "id": 30541,
           "name": "8.0 Con trỏ"
         },
         Object {
-          "id": "30699",
-          "level": 2,
+          "id": 30699,
           "name": "8.1 Toán tử tăng, giảm dùng cho con trỏ"
         },
         Object {
-          "id": "30788",
-          "level": 2,
+          "id": 30788,
           "name": "8.2 Con trỏ và mảng một chiều"
         },
         Object {
-          "id": "30876",
-          "level": 2,
+          "id": 30876,
           "name": "8.3 Con trỏ và mảng kí tự"
         },
         Object {
-          "id": "31145",
-          "level": 2,
+          "id": 31145,
           "name": "8.4 Cấp phát bộ nhớ động"
         },
         Object {
-          "id": "31355",
-          "level": 2,
+          "id": 31355,
           "name": "8.5 Con trỏ và hằng"
         },
         Object {
-          "id": "31625",
-          "level": 2,
+          "id": 31625,
           "name": "8.6 Con trỏ void"
         },
         Object {
-          "id": "32159",
-          "level": 2,
+          "id": 32159,
           "name": "8.7 Con trỏ trỏ đến con trỏ"
         },
         Object {
-          "id": "31810",
-          "level": 2,
+          "id": 31810,
           "name": "8.8 Con trỏ và hàm"
         },
         Object {
-          "id": "31959",
-          "level": 2,
+          "id": 31959,
           "name": "8.9 Con trỏ hàm"
         },
         Object {
-          "id": "32101",
-          "level": 2,
+          "id": 32101,
           "name": "8.10 Phân loại các vùng nhớ (stack & heap ...)"
         },
         Object {
-          "id": "32133",
-          "level": 2,
+          "id": 32133,
           "name": "8.11 Các vấn đề thường gặp khi sử dụng con trỏ"
         }
       ],
@@ -354,13 +296,11 @@ Object {
     Object {
       "children": Array [
         Object {
-          "id": "32760",
-          "level": 2,
+          "id": 32760,
           "name": "9.0 Kiểu liệt kê (enum)"
         },
         Object {
-          "id": "33291",
-          "level": 2,
+          "id": 33291,
           "name": "9.1 Structs"
         },
         Object {

@@ -11,7 +11,7 @@ describe("parse toc", () => {
   it("simplify url", () => {
     // eslint-disable-next-line
     const from = "http://daynhauhoc.com/t/gioi-thieu-ve-series-tutorial-lap-trinh-c-danh-cho-nguoi-moi-bat-dau/29402"
-    const to = "29402"
+    const to = 29402
 
     expect(getPostId(from)).toBe(to)
   })

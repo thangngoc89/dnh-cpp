@@ -9,9 +9,11 @@ export default function downloadPost(post) {
   return got("http://daynhauhoc.com/t/" + post.id + ".json")
   .then((res) => JSON.parse(res.body))
   .then((data) => data.post_stream.posts[0].cooked)
-  .then((html) => `${ JSON.stringify({ title: post.name }) }
-  ---
-  ${html}
-  `)
+  .then((html) => (
+`---
+${ JSON.stringify({ title: post.name }) }
+---json
+${html}
+`))
   .then((template) => fsp.writeJSON(resolve(writeDir, "index.md"), template))
 }

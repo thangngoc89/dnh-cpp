@@ -51,7 +51,7 @@ export default function processMd(data) {
 
         lastChildren.children.push({
           name: removeEverythingBeforeFirstSpace(name),
-          level: 3,
+          // level: 3,
           id: getPostId(removeEverythingBeforeFirstSpace(link)),
         })
       }
@@ -60,7 +60,7 @@ export default function processMd(data) {
 
         tree.children[headingPos].children.push({
           name,
-          level: 2,
+          // level: 2,
           id: getPostId(link),
         })
       }
