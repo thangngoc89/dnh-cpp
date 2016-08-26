@@ -1,6 +1,6 @@
 const omitEmpty = require("omit-empty")
 
-const getPostId = (url) => {
+export const getPostId = (url) => {
   const exploded = url.split("/")
   const id = parseInt(exploded[exploded.length - 1])
 
@@ -9,8 +9,6 @@ const getPostId = (url) => {
   }
   return id
 }
-
-export { getPostId }
 
 export default function processMd(data) {
   let headingPos = 0
