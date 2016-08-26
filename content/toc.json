@@ -9,27 +9,32 @@
         {
           "name": "0.0 Giới thiệu về series tutorial",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/gioi-thieu-ve-serial-tutorial-lap-trinh-c-danh-cho-nguoi-moi-bat-dau/29402"
+          "id": 29402,
+          "path": "0/0-gioi-thieu-ve-series-tutorial"
         },
         {
           "name": "0.1 Giới thiệu về ngôn ngữ lập trình",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/gioi-thieu-tong-quan-ve-khai-niem-ngon-ngu-lap-trinh/29425"
+          "id": 29425,
+          "path": "0/1-gioi-thieu-ve-ngon-ngu-lap-trinh"
         },
         {
           "name": "0.2 Giới thiệu về ngôn ngữ lập trình C++",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/gioi-thieu-ve-serial-tutorial-lap-trinh-c-danh-cho-nguoi-moi-bat-dau-p3/29448"
+          "id": 29448,
+          "path": "0/2-gioi-thieu-ve-ngon-ngu-lap-trinh-c"
         },
         {
           "name": "0.3 Các công đoạn phát triển của một chương trình C++",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/cac-cong-doan-phat-trien-cua-mot-chuong-trinh-c/29449"
+          "id": 29449,
+          "path": "0/3-cac-cong-doan-phat-trien-cua-mot-chuong-trinh-c"
         },
         {
           "name": "0.4 Giới thiệu môi trường phát tri���n ứng dụng C++",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/gioi-thieu-moi-truong-phat-trien-ung-dung-c/29503"
+          "id": 29503,
+          "path": "0/4-gioi-thieu-moi-truong-phat-tri-n-ung-dung-c"
         },
         {
           "name": "0.5 Hướng dẫn cài đặt một số IDE để lập trình C++ trên các nền tảng Window,Mac Os, Linux",
@@ -38,23 +43,25 @@
             {
               "name": "Cài đặt Visual Studio 2015 để lập trình C++ trên Windows",
               "level": 3,
-              "link": "http://blog.daynhauhoc.com/cai-dat-visual-studio-2015-de-lap-trinh-c-tren-windows/"
+              "id": 24768,
+              "path": "0/5-cai-dat-visual-studio-2015-de-lap-trinh-c-tren-windows"
             },
             {
               "name": "Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X",
               "level": 3,
-              "link": "http://blog.daynhauhoc.com/huong-dan-cai-dat-xcode-de-lap-trinh-c-tren-mac-os-x/"
+              "id": 24606,
+              "path": "0/5-huong-dan-cai-dat-xcode-de-lap-trinh-c-tren-mac-os-x"
             },
             {
               "name": "Cài đặt Code::blocks để lập trình C/C++ trên Ubuntu/Linux",
               "level": 3,
-              "link": "http://blog.daynhauhoc.com/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/"
+              "id": 24563,
+              "path": "0/5-cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux"
             }
           ]
         }
       ],
-      "level": 1,
-      "toggled": true
+      "level": 1
     },
     {
       "name": "C++ cơ bản",
@@ -62,57 +69,68 @@
         {
           "name": "1.0 Viết chương trình đầu tiên",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/viet-chuong-trinh-dau-tien-c/29504"
+          "id": 29504,
+          "path": "1/0-viet-chuong-trinh-dau-tien"
         },
         {
           "name": "1.1 Cấu trúc cơ bản của một chương trình C++",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/cau-truc-co-ban-cua-mot-chuong-trinh-c/29527"
+          "id": 29527,
+          "path": "1/1-cau-truc-co-ban-cua-mot-chuong-trinh-c"
         },
         {
           "name": "1.2 Lệnh, khối lệnh, từ khóa",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/lenh-khoi-lenh-tu-khoa/29575"
+          "id": 29575,
+          "path": "1/2-lenh-khoi-lenh-tu-khoa"
         },
         {
           "name": "1.3 Sử dụng các lệnh liên quan đến xuất dữ liệu",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/su-dung-cac-lenh-lien-quan-den-xuat-du-lieu/29796"
+          "id": 29796,
+          "path": "1/3-su-dung-cac-lenh-lien-quan-den-xuat-du-lieu"
         },
         {
           "name": "1.4 Biến và các kiểu dữ liệu trong C++",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/bien-va-cac-kieu-du-lieu-trong-c/29935"
+          "id": 29935,
+          "path": "1/4-bien-va-cac-kieu-du-lieu-trong-c"
         },
         {
           "name": "1.5 Nhập và xuất dữ liệu",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/nhap-va-xuat-du-lieu/29936"
+          "id": 29936,
+          "path": "1/5-nhap-va-xuat-du-lieu"
         },
         {
           "name": "1.6 Hằng số",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/hang-so-const/29938"
+          "id": 29938,
+          "path": "1/6-hang-so"
         },
         {
           "name": "1.7 Phạm vi của biến",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/pham-vi-cua-bien/29939"
+          "id": 29939,
+          "path": "1/7-pham-vi-cua-bien"
         },
         {
           "name": "1.8 Các phép toán cơ bản",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/cac-phep-toan-co-ban/29944"
+          "id": 29944,
+          "path": "1/8-cac-phep-toan-co-ban"
         },
         {
           "name": "1.9 Toán tử tăng giảm",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/1-9-toan-tu-tang-giam/29945"
+          "id": 29945,
+          "path": "1/9-toan-tu-tang-giam"
         },
         {
           "name": "1.10 Độ ưu tiên của các toán tử",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/do-uu-tien-cua-cac-toan-tu-c/29574"
+          "id": 29574,
+          "path": "1/10-do-uu-tien-cua-cac-toan-tu"
         }
       ],
       "level": 1
@@ -123,22 +141,26 @@
         {
           "name": "2.0 Boolean",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/2-0-kieu-boolean/29992"
+          "id": 29992,
+          "path": "2/0-boolean"
         },
         {
           "name": "2.1 Giới thiệu một số cấu trúc điều khiển",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/gioi-thieu-mot-so-cau-truc-dieu-khien/30007"
+          "id": 30007,
+          "path": "2/1-gioi-thieu-mot-so-cau-truc-dieu-khien"
         },
         {
           "name": "2.2 if statements",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/if-statements-cau-lenh-if/30008"
+          "id": 30008,
+          "path": "2/2-if-statements"
         },
         {
           "name": "2.3 switch case statements",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/switch-case-statements/30009"
+          "id": 30009,
+          "path": "2/3-switch-case-statements"
         }
       ],
       "level": 1
@@ -149,22 +171,26 @@
         {
           "name": "3.0 Vòng lặp while",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/vong-lap-while-trong-ngon-ngu-c-c/30011"
+          "id": 30011,
+          "path": "3/0-vong-lap-while"
         },
         {
           "name": "3.1 Vòng lặp do-while",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/vong-lap-do-while/30012"
+          "id": 30012,
+          "path": "3/1-vong-lap-do-while"
         },
         {
           "name": "3.2 Vòng lặp for",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/vong-lap-for-trong-ngon-ngu-c-c/30013"
+          "id": 30013,
+          "path": "3/2-vong-lap-for"
         },
         {
           "name": "3.3 từ khóa break và continue",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/break-va-continue/30014"
+          "id": 30014,
+          "path": "3/3-tu-khoa-break-va-continue"
         }
       ],
       "level": 1
@@ -175,27 +201,32 @@
         {
           "name": "4.0 Sử dụng thư viện cstdint",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/su-dung-thu-vien-cstdint/30016"
+          "id": 30016,
+          "path": "4/0-su-dung-thu-vien-cstdint"
         },
         {
           "name": "4.1 Kiểu kí tự",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/kieu-ky-tu-char/30018"
+          "id": 30018,
+          "path": "4/1-kieu-ki-tu"
         },
         {
           "name": "4.2 Ép kiểu dữ liệu",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/ep-kieu-du-lieu/30019"
+          "id": 30019,
+          "path": "4/2-ep-kieu-du-lieu"
         },
         {
           "name": "4.3 auto và decltype",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/tu-khoa-auto-va-decltype/30020"
+          "id": 30020,
+          "path": "4/3-auto-va-decltype"
         },
         {
           "name": "4.4 Địa chỉ của biến",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/dia-chi-cua-bien/30022"
+          "id": 30022,
+          "path": "4/4-dia-chi-cua-bien"
         }
       ],
       "level": 1
@@ -206,27 +237,32 @@
         {
           "name": "5.0 Mảng một chiều",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/mang-mot-chieu-c-c/30080"
+          "id": 30080,
+          "path": "5/0-mang-mot-chieu"
         },
         {
           "name": "5.1 Các thao tác cơ bản với mảng một chiều",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/cac-thao-tac-co-ban-voi-mang-mot-chieu/30082"
+          "id": 30082,
+          "path": "5/1-cac-thao-tac-co-ban-voi-mang-mot-chieu"
         },
         {
           "name": "5.2 Thư viện array trong STL",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/thu-vien-array-trong-stl-c/30083"
+          "id": 30083,
+          "path": "5/2-thu-vien-array-trong-stl"
         },
         {
           "name": "5.3 Mảng hai chiều",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/mang-hai-chieu-c-c/30085"
+          "id": 30085,
+          "path": "5/3-mang-hai-chieu"
         },
         {
           "name": "5.4 Các thao tác cơ bản với mảng hai chiều",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/cac-thao-tac-co-ban-voi-mang-hai-chieu/30086"
+          "id": 30086,
+          "path": "5/4-cac-thao-tac-co-ban-voi-mang-hai-chieu"
         }
       ],
       "level": 1
@@ -237,17 +273,20 @@
         {
           "name": "6.0 Mảng kí tự",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/mang-mot-chieu-kieu-ki-tu/30090"
+          "id": 30090,
+          "path": "6/0-mang-ki-tu"
         },
         {
           "name": "6.1 Các thao tác cơ bản với mảng kí tự",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/cac-thao-tac-co-ban-voi-mang-ki-tu/30091"
+          "id": 30091,
+          "path": "6/1-cac-thao-tac-co-ban-voi-mang-ki-tu"
         },
         {
           "name": "6.2 Thư viện string trong C++",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/thu-vien-string-trong-c/30092"
+          "id": 30092,
+          "path": "6/2-thu-vien-string-trong-c"
         }
       ],
       "level": 1
@@ -258,32 +297,38 @@
         {
           "name": "7.0 Làm quen với khái niệm function",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/lam-quen-voi-khai-niem-function/30132"
+          "id": 30132,
+          "path": "7/0-lam-quen-voi-khai-niem-function"
         },
         {
           "name": "7.1 Thiết kế chương trình dựa trên khái niệm function",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/thiet-ke-chuong-trinh-dua-tren-khai-niem-function-c-c/30133"
+          "id": 30133,
+          "path": "7/1-thiet-ke-chuong-trinh-dua-tren-khai-niem-function"
         },
         {
           "name": "7.2 Truyền đối số cho hàm là giá trị hoặc tham chiếu",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/truyen-doi-so-cho-ham-la-gia-tri-hoac-tham-chieu/30319"
+          "id": 30319,
+          "path": "7/2-truyen-doi-so-cho-ham-la-gia-tri-hoac-tham-chieu"
         },
         {
           "name": "7.3 Hàm trả về giá trị hoặc tham chiếu",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/ham-tra-ve-gia-tri-hoac-tham-chieu/30381"
+          "id": 30381,
+          "path": "7/3-ham-tra-ve-gia-tri-hoac-tham-chieu"
         },
         {
           "name": "7.4 Tham số mặc định, tham số hằng",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/tham-so-mac-dinh-va-tham-so-hang/30382"
+          "id": 30382,
+          "path": "7/4-tham-so-mac-dinh-tham-so-hang"
         },
         {
           "name": "7.5 Function overloading",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/function-overloading/30477"
+          "id": 30477,
+          "path": "7/5-function-overloading"
         }
       ],
       "level": 1
@@ -294,62 +339,74 @@
         {
           "name": "8.0 Con trỏ",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/con-tro-pointer/30541"
+          "id": 30541,
+          "path": "8/0-con-tr"
         },
         {
           "name": "8.1 Toán tử tăng, giảm dùng cho con trỏ",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/toan-tu-tang-giam-dung-cho-con-tro/30699"
+          "id": 30699,
+          "path": "8/1-toan-tu-tang-giam-dung-cho-con-tr"
         },
         {
           "name": "8.2 Con trỏ và mảng một chiều",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/con-tro-va-mang-mot-chieu/30788"
+          "id": 30788,
+          "path": "8/2-con-tr-va-mang-mot-chieu"
         },
         {
           "name": "8.3 Con trỏ và mảng kí tự",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/con-tro-va-mang-ki-tu/30876"
+          "id": 30876,
+          "path": "8/3-con-tr-va-mang-ki-tu"
         },
         {
           "name": "8.4 Cấp phát bộ nhớ động",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/cap-phat-dong-dynamic-memory-allocation/31145"
+          "id": 31145,
+          "path": "8/4-cap-phat-bo-nho-dong"
         },
         {
           "name": "8.5 Con trỏ và hằng",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/con-tro-va-hang/31355"
+          "id": 31355,
+          "path": "8/5-con-tr-va-hang"
         },
         {
           "name": "8.6 Con trỏ void",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/con-tro-kieu-void/31625"
+          "id": 31625,
+          "path": "8/6-con-tr-void"
         },
         {
           "name": "8.7 Con trỏ trỏ đến con trỏ",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/con-tro-tro-den-con-tro-pointer-to-pointer/32159"
+          "id": 32159,
+          "path": "8/7-con-tr-tr-den-con-tr"
         },
         {
           "name": "8.8 Con trỏ và hàm",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/con-tro-va-ham-c/31810"
+          "id": 31810,
+          "path": "8/8-con-tr-va-ham"
         },
         {
           "name": "8.9 Con trỏ hàm",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/con-tro-ham-function-pointers/31959"
+          "id": 31959,
+          "path": "8/9-con-tr-ham"
         },
         {
           "name": "8.10 Phân loại các vùng nhớ (stack & heap ...)",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/stack-heap-on-virtual-memory/32101"
+          "id": 32101,
+          "path": "8/10-phan-loai-cac-vung-nho-stack-va-heap"
         },
         {
           "name": "8.11 Các vấn đề thường gặp khi sử dụng con trỏ",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/cac-van-de-thuong-gap-khi-su-dung-con-tro/32133"
+          "id": 32133,
+          "path": "8/11-cac-van-de-thuong-gap-khi-su-dung-con-tr"
         }
       ],
       "level": 1
@@ -360,12 +417,14 @@
         {
           "name": "9.0 Kiểu liệt kê (enum)",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/kieu-liet-ke-enum/32760"
+          "id": 32760,
+          "path": "9/0-kieu-liet-ke-enum"
         },
         {
           "name": "9.1 Structs",
           "level": 2,
-          "link": "http://daynhauhoc.com/t/kieu-cau-truc-structs/33291"
+          "id": 33291,
+          "path": "9/1-structs"
         },
         {
           "name": "9.2 Struct and pointer",

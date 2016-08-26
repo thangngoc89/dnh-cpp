@@ -12,11 +12,11 @@
 
 0.5 Hướng dẫn cài đặt một số IDE để lập trình C++ trên các nền tảng Window,Mac Os, Linux
 
-* [Cài đặt Visual Studio 2015 để lập trình C++ trên Windows](http://blog.daynhauhoc.com/cai-dat-visual-studio-2015-de-lap-trinh-c-tren-windows/)
+* [Cài đặt Visual Studio 2015 để lập trình C++ trên Windows](http://daynhauhoc.com/t/cai-dat-visual-studio-2015-de-lap-trinh-c-tren-windows/24768)
 
-* [Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X](http://blog.daynhauhoc.com/huong-dan-cai-dat-xcode-de-lap-trinh-c-tren-mac-os-x/)
+* [Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X](http://daynhauhoc.com/t/huong-dan-cai-dat-xcode-de-lap-trinh-c-tren-mac-os-x/24606)
 
-* [Cài đặt Code::blocks để lập trình C/C++ trên Ubuntu/Linux](http://blog.daynhauhoc.com/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/)
+* [Cài đặt Code::blocks để lập trình C/C++ trên Ubuntu/Linux](http://daynhauhoc.com/t/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/24563)
 
 
 ### C++ cơ bản

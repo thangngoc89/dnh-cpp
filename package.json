@@ -10,7 +10,7 @@
     "prebuild": "npm run lint && npm run init",
     "build": "phenomic build",
     "test": "jest",
-    "init": "babel-node scripts/content/generate-toc.js"
+    "fetch": "babel-node scripts/content/fetch-data.js"
   },
   "jest": {
     "automock": false
@@ -51,6 +51,8 @@
     "eslint-plugin-react": "^4.3.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.1",
+    "fs-extra": "^0.30.0",
+    "fs-promise": "^0.5.0",
     "github-markdown-css": "^2.2.1",
     "highlight.js": "^9.3.0",
     "hint.css": "^2.2.1",
@@ -58,6 +60,7 @@
     "invariant": "^2.1.1",
     "jest-cli": "^14.1.0",
     "json-loader": "^0.5.2",
+    "lodash": "^4.15.0",
     "phenomic": "^0.15.0",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
@@ -83,6 +86,7 @@
     "got": "^6.3.0",
     "normalize.css": "^4.1.1",
     "omit-empty": "^0.4.1",
-    "react-treebeard": "^1.1.2"
+    "react-treebeard": "^1.1.2",
+    "speakingurl": "^9.0.0"
   }
 }

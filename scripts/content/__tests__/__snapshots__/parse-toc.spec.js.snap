@@ -1,43 +1,52 @@
-exports[`parse md parse correctly 1`] = `
+exports[`parse toc parse correctly 1`] = `
 Object {
   "children": Array [
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/gioi-thieu-ve-serial-tutorial-lap-trinh-c-danh-cho-nguoi-moi-bat-dau/29402",
+          "id": "29402",
+          "level": 2,
           "name": "0.0 Giới thiệu về series tutorial"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/gioi-thieu-tong-quan-ve-khai-niem-ngon-ngu-lap-trinh/29425",
+          "id": "29425",
+          "level": 2,
           "name": "0.1 Giới thiệu về ngôn ngữ lập trình"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/gioi-thieu-ve-serial-tutorial-lap-trinh-c-danh-cho-nguoi-moi-bat-dau-p3/29448",
+          "id": "29448",
+          "level": 2,
           "name": "0.2 Giới thiệu về ngôn ngữ lập trình C++"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/cac-cong-doan-phat-trien-cua-mot-chuong-trinh-c/29449",
+          "id": "29449",
+          "level": 2,
           "name": "0.3 Các công đoạn phát triển của một chương trình C++"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/gioi-thieu-moi-truong-phat-trien-ung-dung-c/29503",
+          "id": "29503",
+          "level": 2,
           "name": "0.4 Giới thiệu môi trường phát triển ứng dụng C++"
         },
         Object {
           "children": Array [
             Object {
-              "link": "http://blog.daynhauhoc.com/cai-dat-visual-studio-2015-de-lap-trinh-c-tren-windows/",
+              "id": "24768",
+              "level": 3,
               "name": "Cài đặt Visual Studio 2015 để lập trình C++ trên Windows"
             },
             Object {
-              "link": "http://blog.daynhauhoc.com/huong-dan-cai-dat-xcode-de-lap-trinh-c-tren-mac-os-x/",
+              "id": "24606",
+              "level": 3,
               "name": "Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X"
             },
             Object {
-              "link": "http://blog.daynhauhoc.com/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/",
+              "id": "24563",
+              "level": 3,
               "name": "Cài đặt Code::blocks để lập trình C/C++ trên Ubuntu/Linux"
             }
           ],
+          "level": 2,
           "name": "0.5 Hướng dẫn cài đặt một số IDE để lập trình C++ trên các nền tảng Window,Mac Os, Linux"
         }
       ],
@@ -47,47 +56,58 @@ Object {
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/viet-chuong-trinh-dau-tien-c/29504",
+          "id": "29504",
+          "level": 2,
           "name": "1.0 Viết chương trình đầu tiên"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/cau-truc-co-ban-cua-mot-chuong-trinh-c/29527",
+          "id": "29527",
+          "level": 2,
           "name": "1.1 Cấu trúc cơ bản của một chương trình C++"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/lenh-khoi-lenh-tu-khoa/29575",
+          "id": "29575",
+          "level": 2,
           "name": "1.2 Lệnh, khối lệnh, từ khóa"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/su-dung-cac-lenh-lien-quan-den-xuat-du-lieu/29796",
+          "id": "29796",
+          "level": 2,
           "name": "1.3 Sử dụng các lệnh liên quan đến xuất dữ liệu"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/bien-va-cac-kieu-du-lieu-trong-c/29935",
+          "id": "29935",
+          "level": 2,
           "name": "1.4 Biến và các kiểu dữ liệu trong C++"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/nhap-va-xuat-du-lieu/29936",
+          "id": "29936",
+          "level": 2,
           "name": "1.5 Nhập và xuất dữ liệu"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/hang-so-const/29938",
+          "id": "29938",
+          "level": 2,
           "name": "1.6 Hằng số"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/pham-vi-cua-bien/29939",
+          "id": "29939",
+          "level": 2,
           "name": "1.7 Phạm vi của biến"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/cac-phep-toan-co-ban/29944",
+          "id": "29944",
+          "level": 2,
           "name": "1.8 Các phép toán cơ bản"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/1-9-toan-tu-tang-giam/29945",
+          "id": "29945",
+          "level": 2,
           "name": "1.9 Toán tử tăng giảm"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/do-uu-tien-cua-cac-toan-tu-c/29574",
+          "id": "29574",
+          "level": 2,
           "name": "1.10 Độ ưu tiên của các toán tử"
         }
       ],
@@ -97,19 +117,23 @@ Object {
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/2-0-kieu-boolean/29992",
+          "id": "29992",
+          "level": 2,
           "name": "2.0 Boolean"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/gioi-thieu-mot-so-cau-truc-dieu-khien/30007",
+          "id": "30007",
+          "level": 2,
           "name": "2.1 Giới thiệu một số cấu trúc điều khiển"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/if-statements-cau-lenh-if/30008",
+          "id": "30008",
+          "level": 2,
           "name": "2.2 if statements"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/switch-case-statements/30009",
+          "id": "30009",
+          "level": 2,
           "name": "2.3 switch case statements"
         }
       ],
@@ -119,19 +143,23 @@ Object {
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/vong-lap-while-trong-ngon-ngu-c-c/30011",
+          "id": "30011",
+          "level": 2,
           "name": "3.0 Vòng lặp while"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/vong-lap-do-while/30012",
+          "id": "30012",
+          "level": 2,
           "name": "3.1 Vòng lặp do-while"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/vong-lap-for-trong-ngon-ngu-c-c/30013",
+          "id": "30013",
+          "level": 2,
           "name": "3.2 Vòng lặp for"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/break-va-continue/30014",
+          "id": "30014",
+          "level": 2,
           "name": "3.3 từ khóa break và continue"
         }
       ],
@@ -141,23 +169,28 @@ Object {
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/su-dung-thu-vien-cstdint/30016",
+          "id": "30016",
+          "level": 2,
           "name": "4.0 Sử dụng thư viện cstdint"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/kieu-ky-tu-char/30018",
+          "id": "30018",
+          "level": 2,
           "name": "4.1 Kiểu kí tự"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/ep-kieu-du-lieu/30019",
+          "id": "30019",
+          "level": 2,
           "name": "4.2 Ép kiểu dữ liệu"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/tu-khoa-auto-va-decltype/30020",
+          "id": "30020",
+          "level": 2,
           "name": "4.3 auto và decltype"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/dia-chi-cua-bien/30022",
+          "id": "30022",
+          "level": 2,
           "name": "4.4 Địa chỉ của biến"
         }
       ],
@@ -167,23 +200,28 @@ Object {
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/mang-mot-chieu-c-c/30080",
+          "id": "30080",
+          "level": 2,
           "name": "5.0 Mảng một chiều"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/cac-thao-tac-co-ban-voi-mang-mot-chieu/30082",
+          "id": "30082",
+          "level": 2,
           "name": "5.1 Các thao tác cơ bản với mảng một chiều"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/thu-vien-array-trong-stl-c/30083",
+          "id": "30083",
+          "level": 2,
           "name": "5.2 Thư viện array trong STL"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/mang-hai-chieu-c-c/30085",
+          "id": "30085",
+          "level": 2,
           "name": "5.3 Mảng hai chiều"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/cac-thao-tac-co-ban-voi-mang-hai-chieu/30086",
+          "id": "30086",
+          "level": 2,
           "name": "5.4 Các thao tác cơ bản với mảng hai chiều"
         }
       ],
@@ -193,15 +231,18 @@ Object {
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/mang-mot-chieu-kieu-ki-tu/30090",
+          "id": "30090",
+          "level": 2,
           "name": "6.0 Mảng kí tự"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/cac-thao-tac-co-ban-voi-mang-ki-tu/30091",
+          "id": "30091",
+          "level": 2,
           "name": "6.1 Các thao tác cơ bản với mảng kí tự"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/thu-vien-string-trong-c/30092",
+          "id": "30092",
+          "level": 2,
           "name": "6.2 Thư viện string trong C++"
         }
       ],
@@ -211,27 +252,33 @@ Object {
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/lam-quen-voi-khai-niem-function/30132",
+          "id": "30132",
+          "level": 2,
           "name": "7.0 Làm quen với khái niệm function"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/thiet-ke-chuong-trinh-dua-tren-khai-niem-function-c-c/30133",
+          "id": "30133",
+          "level": 2,
           "name": "7.1 Thiết kế chương trình dựa trên khái niệm function"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/truyen-doi-so-cho-ham-la-gia-tri-hoac-tham-chieu/30319",
+          "id": "30319",
+          "level": 2,
           "name": "7.2 Truyền đối số cho hàm là giá trị hoặc tham chiếu"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/ham-tra-ve-gia-tri-hoac-tham-chieu/30381",
+          "id": "30381",
+          "level": 2,
           "name": "7.3 Hàm trả về giá trị hoặc tham chiếu"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/tham-so-mac-dinh-va-tham-so-hang/30382",
+          "id": "30382",
+          "level": 2,
           "name": "7.4 Tham số mặc định, tham số hằng"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/function-overloading/30477",
+          "id": "30477",
+          "level": 2,
           "name": "7.5 Function overloading"
         }
       ],
@@ -241,51 +288,63 @@ Object {
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/con-tro-pointer/30541",
+          "id": "30541",
+          "level": 2,
           "name": "8.0 Con trỏ"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/toan-tu-tang-giam-dung-cho-con-tro/30699",
+          "id": "30699",
+          "level": 2,
           "name": "8.1 Toán tử tăng, giảm dùng cho con trỏ"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/con-tro-va-mang-mot-chieu/30788",
+          "id": "30788",
+          "level": 2,
           "name": "8.2 Con trỏ và mảng một chiều"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/con-tro-va-mang-ki-tu/30876",
+          "id": "30876",
+          "level": 2,
           "name": "8.3 Con trỏ và mảng kí tự"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/cap-phat-dong-dynamic-memory-allocation/31145",
+          "id": "31145",
+          "level": 2,
           "name": "8.4 Cấp phát bộ nhớ động"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/con-tro-va-hang/31355",
+          "id": "31355",
+          "level": 2,
           "name": "8.5 Con trỏ và hằng"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/con-tro-kieu-void/31625",
+          "id": "31625",
+          "level": 2,
           "name": "8.6 Con trỏ void"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/con-tro-tro-den-con-tro-pointer-to-pointer/32159",
+          "id": "32159",
+          "level": 2,
           "name": "8.7 Con trỏ trỏ đến con trỏ"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/con-tro-va-ham-c/31810",
+          "id": "31810",
+          "level": 2,
           "name": "8.8 Con trỏ và hàm"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/con-tro-ham-function-pointers/31959",
+          "id": "31959",
+          "level": 2,
           "name": "8.9 Con trỏ hàm"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/stack-heap-on-virtual-memory/32101",
+          "id": "32101",
+          "level": 2,
           "name": "8.10 Phân loại các vùng nhớ (stack & heap ...)"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/cac-van-de-thuong-gap-khi-su-dung-con-tro/32133",
+          "id": "32133",
+          "level": 2,
           "name": "8.11 Các vấn đề thường gặp khi sử dụng con trỏ"
         }
       ],
@@ -295,14 +354,17 @@ Object {
     Object {
       "children": Array [
         Object {
-          "link": "http://daynhauhoc.com/t/kieu-liet-ke-enum/32760",
+          "id": "32760",
+          "level": 2,
           "name": "9.0 Kiểu liệt kê (enum)"
         },
         Object {
-          "link": "http://daynhauhoc.com/t/kieu-cau-truc-structs/33291",
+          "id": "33291",
+          "level": 2,
           "name": "9.1 Structs"
         },
         Object {
+          "level": 2,
           "name": "9.2 Struct and pointer"
         }
       ],
@@ -312,18 +374,23 @@ Object {
     Object {
       "children": Array [
         Object {
+          "level": 2,
           "name": "10.0 File, Stream trong C++"
         },
         Object {
+          "level": 2,
           "name": "10.1 Đọc dữ liệu từ file trong C++"
         },
         Object {
+          "level": 2,
           "name": "10.2 Ghi dữ liệu vào file trong C++"
         },
         Object {
+          "level": 2,
           "name": "10.3 Stream for string C++"
         },
         Object {
+          "level": 2,
           "name": "10.4 Stream states & Stream validation"
         }
       ],
@@ -333,12 +400,15 @@ Object {
     Object {
       "children": Array [
         Object {
+          "level": 2,
           "name": "11.0 Vector"
         },
         Object {
+          "level": 2,
           "name": "11.1 Stack (Ngăn xếp)"
         },
         Object {
+          "level": 2,
           "name": "11.2 Queue (Hàng đợi)"
         }
       ],
@@ -348,12 +418,15 @@ Object {
     Object {
       "children": Array [
         Object {
+          "level": 2,
           "name": "12.0 auto_ptr"
         },
         Object {
+          "level": 2,
           "name": "12.1 shared_ptr"
         },
         Object {
+          "level": 2,
           "name": "12.2 unique_ptr"
         }
       ],
@@ -363,18 +436,23 @@ Object {
     Object {
       "children": Array [
         Object {
+          "level": 2,
           "name": "13.0 Biến static"
         },
         Object {
+          "level": 2,
           "name": "13.1 Biến toàn cục, tại sao không nên sử dụng nhiều biến toàn cục"
         },
         Object {
+          "level": 2,
           "name": "13.2 Viết chương trình với nhiều file"
         },
         Object {
+          "level": 2,
           "name": "13.3 Tạo và sử dụng thư viện liên kết tĩnh"
         },
         Object {
+          "level": 2,
           "name": "13.4 Tạo và sử dụng thư viện liên kết động"
         }
       ],
@@ -384,12 +462,15 @@ Object {
     Object {
       "children": Array [
         Object {
+          "level": 2,
           "name": "14.0 Function template"
         },
         Object {
+          "level": 2,
           "name": "14.1 Lambda expression"
         },
         Object {
+          "level": 2,
           "name": "14.2 Xử lý ngoại lệ"
         }
       ],
