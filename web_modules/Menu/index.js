@@ -1,8 +1,12 @@
 import React, { Component, PropTypes } from "react"
 import styles from "./index.css"
 import { Treebeard } from "react-treebeard"
+import treeStyle from "./treeStyle"
+import decorators from "./decorators"
 // import Link from "./LinkWithActiveClass"
 import data from "../../content/toc.json"
+
+console.log(decorators)
 
 const cx = require("classnames/bind").bind(styles)
 
@@ -17,14 +21,12 @@ export default class Menu extends Component {
   }
 
   handleOnToggle = (node, toggled) => {
-    // if (this.state.cursor) {
-    //   this.setState({
-    //     cursor: {
-    //       active: false,
-    //     },
-    //   })
-    // }
-    // node.active = true
+    if (this.state.cursor) {
+      // eslint-disable-next-line
+      this.state.cursor.active = false
+    }
+    node.active = true
+    console.log(node)
     if (node.children) {
       node.toggled = toggled
     }
@@ -39,7 +41,9 @@ export default class Menu extends Component {
     return (
       <div className={ wrapperClass }>
         <Treebeard
+          style={ treeStyle }
           data={ data }
+          decorators={ decorators }
           onToggle={ this.handleOnToggle }
         />
       </div>

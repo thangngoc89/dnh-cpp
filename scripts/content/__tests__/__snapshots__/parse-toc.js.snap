@@ -41,6 +41,7 @@ Object {
           "name": "0.5 Hướng dẫn cài đặt một số IDE để lập trình C++ trên các nền tảng Window,Mac Os, Linux"
         }
       ],
+      "level": 1,
       "name": "Giới thiệu tổng quan khóa học"
     },
     Object {
@@ -90,6 +91,7 @@ Object {
           "name": "1.10 Độ ưu tiên của các toán tử"
         }
       ],
+      "level": 1,
       "name": "C++ cơ bản"
     },
     Object {
@@ -111,6 +113,7 @@ Object {
           "name": "2.3 switch case statements"
         }
       ],
+      "level": 1,
       "name": "Cấu trúc rẽ nhánh"
     },
     Object {
@@ -132,6 +135,7 @@ Object {
           "name": "3.3 từ khóa break và continue"
         }
       ],
+      "level": 1,
       "name": "Cấu trúc vòng lặp"
     },
     Object {
@@ -157,6 +161,7 @@ Object {
           "name": "4.4 Địa chỉ của biến"
         }
       ],
+      "level": 1,
       "name": "Nâng cao về biến, kiểu dữ liệu"
     },
     Object {
@@ -182,6 +187,7 @@ Object {
           "name": "5.4 Các thao tác cơ bản với mảng hai chiều"
         }
       ],
+      "level": 1,
       "name": "Kiểu dữ liệu mảng"
     },
     Object {
@@ -199,6 +205,7 @@ Object {
           "name": "6.2 Thư viện string trong C++"
         }
       ],
+      "level": 1,
       "name": "Kiểu chuỗi kí tự"
     },
     Object {
@@ -228,6 +235,7 @@ Object {
           "name": "7.5 Function overloading"
         }
       ],
+      "level": 1,
       "name": "Cơ bản về Function"
     },
     Object {
@@ -281,6 +289,7 @@ Object {
           "name": "8.11 Các vấn đề thường gặp khi sử dụng con trỏ"
         }
       ],
+      "level": 1,
       "name": "Con trỏ"
     },
     Object {
@@ -297,6 +306,7 @@ Object {
           "name": "9.2 Struct and pointer"
         }
       ],
+      "level": 1,
       "name": "Kiểu dữ liệu tự định nghĩa"
     },
     Object {
@@ -317,6 +327,7 @@ Object {
           "name": "10.4 Stream states & Stream validation"
         }
       ],
+      "level": 1,
       "name": "Nhập, xuất (Input & Output)"
     },
     Object {
@@ -331,6 +342,7 @@ Object {
           "name": "11.2 Queue (Hàng đợi)"
         }
       ],
+      "level": 1,
       "name": "Một số thư viện thường dùng trong STL"
     },
     Object {
@@ -345,6 +357,7 @@ Object {
           "name": "12.2 unique_ptr"
         }
       ],
+      "level": 1,
       "name": "Auto pointer"
     },
     Object {
@@ -365,6 +378,7 @@ Object {
           "name": "13.4 Tạo và sử dụng thư viện liên kết động"
         }
       ],
+      "level": 1,
       "name": "Quản lý mã nguồn"
     },
     Object {
@@ -379,9 +393,11 @@ Object {
           "name": "14.2 Xử lý ngoại lệ"
         }
       ],
+      "level": 1,
       "name": "Một số feature trong C++11, C++14"
     }
   ],
+  "level": 0,
   "name": "Khóa học C++",
   "toggled": true
 }

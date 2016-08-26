@@ -1,5 +1,7 @@
 const omitEmpty = require("omit-empty")
 
+let first = true
+
 export default function processMd(data) {
   let headingPos = 0
   const linkRegex = /\[([^\]]+)\]\((.+)\)/
@@ -7,6 +9,7 @@ export default function processMd(data) {
   const tree = {
     name: "Khóa học C++",
     toggled: true,
+    level: 0,
     children: [],
   }
   const lines = data.split("\n")
@@ -14,14 +17,17 @@ export default function processMd(data) {
   for (const lineId in lines) {
 
     const line = lines[lineId]
-    // OK so this is a heading
+    // A heading
     if (line.startsWith("###")) {
       tree.children.push({
         name: line.substring(4, line.length),
         children: [],
+        level: 1,
+        ...(first && { toggled: true }),
       })
+      first = false
     }
-    // This is a link
+    // A link
     else if (linkRegex.test(line)) {
       const name = line.replace(linkRegex, "$1")
       const link = line.replace(linkRegex, "$2")
@@ -34,6 +40,7 @@ export default function processMd(data) {
         const lastChildren = allChildren[allChildren.length - 1]
         lastChildren.children.push({
           name: removeEverythingBeforeFirstSpace(name),
+          level: 3,
           link: removeEverythingBeforeFirstSpace(link),
         })
       }
@@ -42,6 +49,7 @@ export default function processMd(data) {
 
         tree.children[headingPos].children.push({
           name,
+          level: 2,
           link,
         })
       }
@@ -52,6 +60,7 @@ export default function processMd(data) {
 
       tree.children[headingPos].children.push({
         name,
+        level: 2,
         children: [],
       })
     }

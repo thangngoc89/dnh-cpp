@@ -1,386 +1,484 @@
 {
   "name": "Khóa học C++",
   "toggled": true,
+  "level": 0,
   "children": [
     {
       "name": "Giới thiệu tổng quan khóa học",
       "children": [
         {
           "name": "0.0 Giới thiệu về series tutorial",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/gioi-thieu-ve-serial-tutorial-lap-trinh-c-danh-cho-nguoi-moi-bat-dau/29402"
         },
         {
           "name": "0.1 Giới thiệu về ngôn ngữ lập trình",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/gioi-thieu-tong-quan-ve-khai-niem-ngon-ngu-lap-trinh/29425"
         },
         {
           "name": "0.2 Giới thiệu về ngôn ngữ lập trình C++",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/gioi-thieu-ve-serial-tutorial-lap-trinh-c-danh-cho-nguoi-moi-bat-dau-p3/29448"
         },
         {
           "name": "0.3 Các công đoạn phát triển của một chương trình C++",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/cac-cong-doan-phat-trien-cua-mot-chuong-trinh-c/29449"
         },
         {
           "name": "0.4 Giới thiệu môi trường phát tri���n ứng dụng C++",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/gioi-thieu-moi-truong-phat-trien-ung-dung-c/29503"
         },
         {
           "name": "0.5 Hướng dẫn cài đặt một số IDE để lập trình C++ trên các nền tảng Window,Mac Os, Linux",
+          "level": 2,
           "children": [
             {
               "name": "Cài đặt Visual Studio 2015 để lập trình C++ trên Windows",
+              "level": 3,
               "link": "http://blog.daynhauhoc.com/cai-dat-visual-studio-2015-de-lap-trinh-c-tren-windows/"
             },
             {
               "name": "Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X",
+              "level": 3,
               "link": "http://blog.daynhauhoc.com/huong-dan-cai-dat-xcode-de-lap-trinh-c-tren-mac-os-x/"
             },
             {
               "name": "Cài đặt Code::blocks để lập trình C/C++ trên Ubuntu/Linux",
+              "level": 3,
               "link": "http://blog.daynhauhoc.com/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/"
             }
           ]
         }
-      ]
+      ],
+      "level": 1,
+      "toggled": true
     },
     {
       "name": "C++ cơ bản",
       "children": [
         {
           "name": "1.0 Viết chương trình đầu tiên",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/viet-chuong-trinh-dau-tien-c/29504"
         },
         {
           "name": "1.1 Cấu trúc cơ bản của một chương trình C++",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/cau-truc-co-ban-cua-mot-chuong-trinh-c/29527"
         },
         {
           "name": "1.2 Lệnh, khối lệnh, từ khóa",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/lenh-khoi-lenh-tu-khoa/29575"
         },
         {
           "name": "1.3 Sử dụng các lệnh liên quan đến xuất dữ liệu",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/su-dung-cac-lenh-lien-quan-den-xuat-du-lieu/29796"
         },
         {
           "name": "1.4 Biến và các kiểu dữ liệu trong C++",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/bien-va-cac-kieu-du-lieu-trong-c/29935"
         },
         {
           "name": "1.5 Nhập và xuất dữ liệu",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/nhap-va-xuat-du-lieu/29936"
         },
         {
           "name": "1.6 Hằng số",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/hang-so-const/29938"
         },
         {
           "name": "1.7 Phạm vi của biến",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/pham-vi-cua-bien/29939"
         },
         {
           "name": "1.8 Các phép toán cơ bản",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/cac-phep-toan-co-ban/29944"
         },
         {
           "name": "1.9 Toán tử tăng giảm",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/1-9-toan-tu-tang-giam/29945"
         },
         {
           "name": "1.10 Độ ưu tiên của các toán tử",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/do-uu-tien-cua-cac-toan-tu-c/29574"
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Cấu trúc rẽ nhánh",
       "children": [
         {
           "name": "2.0 Boolean",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/2-0-kieu-boolean/29992"
         },
         {
           "name": "2.1 Giới thiệu một số cấu trúc điều khiển",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/gioi-thieu-mot-so-cau-truc-dieu-khien/30007"
         },
         {
           "name": "2.2 if statements",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/if-statements-cau-lenh-if/30008"
         },
         {
           "name": "2.3 switch case statements",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/switch-case-statements/30009"
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Cấu trúc vòng lặp",
       "children": [
         {
           "name": "3.0 Vòng lặp while",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/vong-lap-while-trong-ngon-ngu-c-c/30011"
         },
         {
           "name": "3.1 Vòng lặp do-while",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/vong-lap-do-while/30012"
         },
         {
           "name": "3.2 Vòng lặp for",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/vong-lap-for-trong-ngon-ngu-c-c/30013"
         },
         {
           "name": "3.3 từ khóa break và continue",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/break-va-continue/30014"
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Nâng cao về biến, kiểu dữ liệu",
       "children": [
         {
           "name": "4.0 Sử dụng thư viện cstdint",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/su-dung-thu-vien-cstdint/30016"
         },
         {
           "name": "4.1 Kiểu kí tự",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/kieu-ky-tu-char/30018"
         },
         {
           "name": "4.2 Ép kiểu dữ liệu",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/ep-kieu-du-lieu/30019"
         },
         {
           "name": "4.3 auto và decltype",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/tu-khoa-auto-va-decltype/30020"
         },
         {
           "name": "4.4 Địa chỉ của biến",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/dia-chi-cua-bien/30022"
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Kiểu dữ liệu mảng",
       "children": [
         {
           "name": "5.0 Mảng một chiều",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/mang-mot-chieu-c-c/30080"
         },
         {
           "name": "5.1 Các thao tác cơ bản với mảng một chiều",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/cac-thao-tac-co-ban-voi-mang-mot-chieu/30082"
         },
         {
           "name": "5.2 Thư viện array trong STL",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/thu-vien-array-trong-stl-c/30083"
         },
         {
           "name": "5.3 Mảng hai chiều",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/mang-hai-chieu-c-c/30085"
         },
         {
           "name": "5.4 Các thao tác cơ bản với mảng hai chiều",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/cac-thao-tac-co-ban-voi-mang-hai-chieu/30086"
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Kiểu chuỗi kí tự",
       "children": [
         {
           "name": "6.0 Mảng kí tự",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/mang-mot-chieu-kieu-ki-tu/30090"
         },
         {
           "name": "6.1 Các thao tác cơ bản với mảng kí tự",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/cac-thao-tac-co-ban-voi-mang-ki-tu/30091"
         },
         {
           "name": "6.2 Thư viện string trong C++",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/thu-vien-string-trong-c/30092"
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Cơ bản về Function",
       "children": [
         {
           "name": "7.0 Làm quen với khái niệm function",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/lam-quen-voi-khai-niem-function/30132"
         },
         {
           "name": "7.1 Thiết kế chương trình dựa trên khái niệm function",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/thiet-ke-chuong-trinh-dua-tren-khai-niem-function-c-c/30133"
         },
         {
           "name": "7.2 Truyền đối số cho hàm là giá trị hoặc tham chiếu",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/truyen-doi-so-cho-ham-la-gia-tri-hoac-tham-chieu/30319"
         },
         {
           "name": "7.3 Hàm trả về giá trị hoặc tham chiếu",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/ham-tra-ve-gia-tri-hoac-tham-chieu/30381"
         },
         {
           "name": "7.4 Tham số mặc định, tham số hằng",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/tham-so-mac-dinh-va-tham-so-hang/30382"
         },
         {
           "name": "7.5 Function overloading",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/function-overloading/30477"
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Con trỏ",
       "children": [
         {
           "name": "8.0 Con trỏ",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/con-tro-pointer/30541"
         },
         {
           "name": "8.1 Toán tử tăng, giảm dùng cho con trỏ",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/toan-tu-tang-giam-dung-cho-con-tro/30699"
         },
         {
           "name": "8.2 Con trỏ và mảng một chiều",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/con-tro-va-mang-mot-chieu/30788"
         },
         {
           "name": "8.3 Con trỏ và mảng kí tự",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/con-tro-va-mang-ki-tu/30876"
         },
         {
           "name": "8.4 Cấp phát bộ nhớ động",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/cap-phat-dong-dynamic-memory-allocation/31145"
         },
         {
           "name": "8.5 Con trỏ và hằng",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/con-tro-va-hang/31355"
         },
         {
           "name": "8.6 Con trỏ void",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/con-tro-kieu-void/31625"
         },
         {
           "name": "8.7 Con trỏ trỏ đến con trỏ",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/con-tro-tro-den-con-tro-pointer-to-pointer/32159"
         },
         {
           "name": "8.8 Con trỏ và hàm",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/con-tro-va-ham-c/31810"
         },
         {
           "name": "8.9 Con trỏ hàm",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/con-tro-ham-function-pointers/31959"
         },
         {
           "name": "8.10 Phân loại các vùng nhớ (stack & heap ...)",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/stack-heap-on-virtual-memory/32101"
         },
         {
           "name": "8.11 Các vấn đề thường gặp khi sử dụng con trỏ",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/cac-van-de-thuong-gap-khi-su-dung-con-tro/32133"
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Kiểu dữ liệu tự định nghĩa",
       "children": [
         {
           "name": "9.0 Kiểu liệt kê (enum)",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/kieu-liet-ke-enum/32760"
         },
         {
           "name": "9.1 Structs",
+          "level": 2,
           "link": "http://daynhauhoc.com/t/kieu-cau-truc-structs/33291"
         },
         {
-          "name": "9.2 Struct and pointer"
+          "name": "9.2 Struct and pointer",
+          "level": 2
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Nhập, xuất (Input & Output)",
       "children": [
         {
-          "name": "10.0 File, Stream trong C++"
+          "name": "10.0 File, Stream trong C++",
+          "level": 2
         },
         {
-          "name": "10.1 Đọc dữ liệu từ file trong C++"
+          "name": "10.1 Đọc dữ liệu từ file trong C++",
+          "level": 2
         },
         {
-          "name": "10.2 Ghi dữ liệu vào file trong C++"
+          "name": "10.2 Ghi dữ liệu vào file trong C++",
+          "level": 2
         },
         {
-          "name": "10.3 Stream for string C++"
+          "name": "10.3 Stream for string C++",
+          "level": 2
         },
         {
-          "name": "10.4 Stream states & Stream validation"
+          "name": "10.4 Stream states & Stream validation",
+          "level": 2
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Một số thư viện thường dùng trong STL",
       "children": [
         {
-          "name": "11.0 Vector"
+          "name": "11.0 Vector",
+          "level": 2
         },
         {
-          "name": "11.1 Stack (Ngăn xếp)"
+          "name": "11.1 Stack (Ngăn xếp)",
+          "level": 2
         },
         {
-          "name": "11.2 Queue (Hàng đợi)"
+          "name": "11.2 Queue (Hàng đợi)",
+          "level": 2
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Auto pointer",
       "children": [
         {
-          "name": "12.0 auto_ptr"
+          "name": "12.0 auto_ptr",
+          "level": 2
         },
         {
-          "name": "12.1 shared_ptr"
+          "name": "12.1 shared_ptr",
+          "level": 2
         },
         {
-          "name": "12.2 unique_ptr"
+          "name": "12.2 unique_ptr",
+          "level": 2
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Quản lý mã nguồn",
       "children": [
         {
-          "name": "13.0 Biến static"
+          "name": "13.0 Biến static",
+          "level": 2
         },
         {
-          "name": "13.1 Biến toàn cục, tại sao không nên sử dụng nhiều biến toàn cục"
+          "name": "13.1 Biến toàn cục, tại sao không nên sử dụng nhiều biến toàn cục",
+          "level": 2
         },
         {
-          "name": "13.2 Viết chương trình với nhiều file"
+          "name": "13.2 Viết chương trình với nhiều file",
+          "level": 2
         },
         {
-          "name": "13.3 Tạo và sử dụng thư viện liên kết tĩnh"
+          "name": "13.3 Tạo và sử dụng thư viện liên kết tĩnh",
+          "level": 2
         },
         {
-          "name": "13.4 Tạo và sử dụng thư viện liên kết động"
+          "name": "13.4 Tạo và sử dụng thư viện liên kết động",
+          "level": 2
         }
-      ]
+      ],
+      "level": 1
     },
     {
       "name": "Một số feature trong C++11, C++14",
       "children": [
         {
-          "name": "14.0 Function template"
+          "name": "14.0 Function template",
+          "level": 2
         },
         {
-          "name": "14.1 Lambda expression"
+          "name": "14.1 Lambda expression",
+          "level": 2
         },
         {
-          "name": "14.2 Xử lý ngoại lệ"
+          "name": "14.2 Xử lý ngoại lệ",
+          "level": 2
         }
-      ]
+      ],
+      "level": 1
     }
   ]
 }
