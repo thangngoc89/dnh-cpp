@@ -17,7 +17,7 @@ build:
       - dist
 
 pages:
-  state: deploy
+  stage: deploy
   image: node:6
   artifacts:
     paths:
