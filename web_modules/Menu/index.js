@@ -33,7 +33,7 @@ export default class Menu extends Component {
     this.setState({ cursor: node })
 
     if (node.path) {
-      browserHistory.replace(node.path)
+      browserHistory.push(node.path)
     }
   }
 
