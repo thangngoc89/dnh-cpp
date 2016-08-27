@@ -37,26 +37,3 @@
     font-size: 1.15em;
   }
 }
-
-.pencil {
-  text-decoration: none;
-  padding-left: var(--xpad);
-  display: inline-block;
-  vertical-align: center;
-
-  &:hover,
-  &:focus {
-    text-decoration: none;
-  }
-
-  & svg {
-    height: 1.5rem;
-    width: 1.5rem;
-    fill: color(var(--colorSlate) a(0.8));
-    transition: fill 0.2s ease-in;
-
-    &:hover {
-      fill: var(--colorPrimary);
-    }
-  }
-}

@@ -1,15 +1,10 @@
 import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 import invariant from "invariant"
-import styles from "./index.css"
 import Header from "../../Header"
 import Dockable from "../../Dockable"
-import PencilIcon from "../../icons/pencil.svg"
-import Svg from "react-svg-inline"
-import findGhLink from "../../app/utils/edit-on-github"
 import { BodyContainer } from "phenomic"
-
-const cx = require("classnames/bind").bind(styles)
+import "./index.css"
 
 export default class Page extends Component {
 
@@ -68,14 +63,6 @@ export default class Page extends Component {
             head.title &&
             <h1>
               { head.title }
-              <a
-                href={ findGhLink(__filename, __url) }
-                className={ cx("hint--bottom-left", "pencil") }
-                data-hint="Sửa bài viết trên Github"
-                target="_blank"
-              >
-                <Svg svg={ PencilIcon } />
-              </a>
             </h1>
           }
           {
