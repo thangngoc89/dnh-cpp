@@ -18,6 +18,7 @@ export default function processMd(data) {
     name: "Khóa học C++",
     toggled: true,
     level: 0,
+    path: "/",
     children: [],
   }
   const lines = data.split("\n")

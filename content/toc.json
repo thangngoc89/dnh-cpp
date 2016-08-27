@@ -2,6 +2,7 @@
   "name": "Khóa học C++",
   "toggled": true,
   "level": 0,
+  "path": "/",
   "children": [
     {
       "name": "Giới thiệu tổng quan khóa học",
