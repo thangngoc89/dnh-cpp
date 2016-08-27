@@ -40,10 +40,6 @@ export default {
         width: 20,
         arrow: {
           fill: "none",
-          stroke: "#1abc9c",
-          strokeWidth: "8",
-          strokeLinecap: "round",
-          strokeLinejoin: "round",
         },
       },
       header: {
@@ -61,14 +57,13 @@ export default {
           left: "-21px",
         },
         titleLv0: {
-          fontSize: "2em",
+          fontSize: "1.5em",
           fontWeight: 300,
           marginBottom: "1em",
         },
         titleLv1: {
-          fontSize: "1.1em",
           fontColor:  "#111",
-          fontWeight: 500,
+          fontWeight: 700,
         },
         title: {
           lineHeight: "24px",
