@@ -10,7 +10,8 @@
     "prebuild": "npm run lint && npm run fetch",
     "build": "phenomic build",
     "test": "jest",
-    "fetch": "rm -rf content/generated && babel-node scripts/content/fetch-data.js"
+    "fetch": "rm -rf content/generated && babel-node scripts/content/fetch-data.js",
+    "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-cpp.git --dist dist"
   },
   "jest": {
     "automock": false
