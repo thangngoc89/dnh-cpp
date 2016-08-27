@@ -44,7 +44,7 @@ export default class Menu extends Component {
 
     return (
       <div className={ wrapperClass }>
-        <Scrollbars>
+        <Scrollbars universal>
           <Treebeard
             style={ treeStyle }
             data={ data }

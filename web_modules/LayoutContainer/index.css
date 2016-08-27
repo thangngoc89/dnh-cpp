@@ -36,9 +36,11 @@ body {
   }
 }
 
-:global .avatar {
-  display: hidden;
+:global img.avatar,
+:global badge-wrapper {
+  display: none !important;
 }
+
 /*
  * Local styles
  */
