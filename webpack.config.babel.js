@@ -125,7 +125,7 @@ export const makeConfig = (config = {}) => {
               colorSlate: "#505d6b",
               colorAccent: "#4078c0",
               colorPrimary: " #1abc9c",
-              navWidth: "250px",
+              navWidth: "300px",
               collapsedNavWidth: "64px",
               xpad: "24px",
               line: "rgba(17, 17, 17, 0.1)", // color(#111 a(0.1))

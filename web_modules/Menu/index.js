@@ -6,7 +6,7 @@ import decorators from "./decorators"
 // import Link from "./LinkWithActiveClass"
 import data from "../../content/toc.json"
 import { browserHistory } from "phenomic/lib/client"
-
+import { Scrollbars } from "react-custom-scrollbars"
 const cx = require("classnames/bind").bind(styles)
 
 export default class Menu extends Component {
@@ -43,14 +43,14 @@ export default class Menu extends Component {
     })
 
     return (
-      <div className={ wrapperClass }>
+      <Scrollbars className={ wrapperClass }>
         <Treebeard
           style={ treeStyle }
           data={ data }
           decorators={ decorators }
           onToggle={ this.handleOnToggle }
         />
-      </div>
+      </Scrollbars>
     )
   }
 }

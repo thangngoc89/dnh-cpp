@@ -1,5 +1,3 @@
-"use strict"
-
 export default {
   tree: {
     base: {
@@ -7,8 +5,6 @@ export default {
       backgroundColor: "transparent",
       margin: 0,
       padding: 0,
-      color: "#242a31",
-      fontFamily: "lucida grande ,tahoma,verdana,arial,sans-serif",
       fontSize: "14px",
     },
     node: {
@@ -19,7 +15,7 @@ export default {
         cursor: "pointer",
         position: "relative",
         padding: "0px 5px",
-        display: "block",
+        display: "flex",
       },
       activeLink: {
         background: "rgba(64,120,192,.02)",
@@ -28,8 +24,8 @@ export default {
       toggle: {
         base: {
           position: "relative",
-          display: "inline-block",
-          verticalAlign: "top",
+          // display: "inline-block",
+          // verticalAlign: "top",
           marginLeft: "-5px",
           height: "24px",
           width: "24px",
@@ -41,8 +37,8 @@ export default {
           margin: "-7px 0 0 -7px",
           height: "14px",
         },
-        height: 14,
-        width: 14,
+        height: 8,
+        width: 8,
         arrow: {
           fill: "rgba(26, 187, 156, 0.5)",
           strokeWidth: 0,
@@ -50,9 +46,10 @@ export default {
       },
       header: {
         base: {
-          display: "inline-block",
+          // display: "inline-block",
           verticalAlign: "top",
           color: "#242a31",
+          padding: "2px 0",
         },
         connector: {
           width: "2px",
@@ -66,17 +63,22 @@ export default {
         titleLv0: {
           fontSize: "1.5em",
           fontWeight: 300,
-          fontFamily: "Source Sans Pro,sans-serif",
           marginBottom: "1em",
+        },
+        titleLv1: {
+          fontColor:  "#111",
+          fontWeight: 700,
         },
         title: {
           lineHeight: "24px",
-          verticalAlign: "middle",
+          ":hover": {
+            background: "rgba(64,120,192,.02);",
+          },
         },
       },
       subtree: {
         listStyle: "none",
-        paddingLeft: "19px",
+        paddingLeft: "15px",
       },
       loading: {
         color: "#E2C089",
