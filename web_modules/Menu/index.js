@@ -12,6 +12,7 @@ const cx = require("classnames/bind").bind(styles)
 export default class Menu extends Component {
   static propTypes = {
     visible: PropTypes.bool.isRequired,
+    onPostIdChange: PropTypes.func.isRequired,
   };
 
   constructor(props) {
@@ -26,7 +27,7 @@ export default class Menu extends Component {
     }
 
     node.active = true
-    console.log(node)
+
     if (node.children) {
       node.toggled = toggled
     }
@@ -34,6 +35,7 @@ export default class Menu extends Component {
 
     if (node.path) {
       browserHistory.push(node.path)
+      this.onPostIdChange(node.id)
     }
   }
 

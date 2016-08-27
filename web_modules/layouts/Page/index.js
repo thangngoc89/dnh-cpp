@@ -20,6 +20,21 @@ export default class Page extends Component {
     metadata: PropTypes.object.isRequired,
   };
 
+  componentDidMount() {
+    window.DiscourseEmbed = {
+      discourseUrl: "http://daynhauhoc.com/",
+      topicId: 12345,
+    }
+
+    const d = document.createElement("script")
+    d.type = "text/javascript"
+    d.async = true
+    d.src = window.DiscourseEmbed.discourseUrl + "javascripts/embed.js"
+
+    // eslint-disable-next-line
+    // (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(d)
+  }
+
   render() {
     const {
       pkg,
@@ -70,6 +85,7 @@ export default class Page extends Component {
             <BodyContainer>{ body }</BodyContainer>
           }
         </article>
+        <div id="discourse-comments" />
       </div>
     )
   }

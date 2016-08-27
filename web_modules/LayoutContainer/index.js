@@ -25,12 +25,17 @@ export default class Layout extends Component {
 
     this.state = {
       menuVisible: true,
+      postId: 0,
     }
   }
   onMenuToggleClick = () => {
     this.setState({
       menuVisible: !this.state.menuVisible,
     })
+  }
+
+  handlePostIdChange = (postId) => {
+    this.setState({ postId })
   }
 
   render() {
@@ -50,9 +55,16 @@ export default class Layout extends Component {
             [styles.bodyVisible]: this.state.menuVisible,
           }) }
         >
-          { this.props.children }
+          {
+            React.cloneElement(
+              this.props.children, { postId: this.state.postId }
+            )
+          }
         </div>
-        <Menu visible={ this.state.menuVisible } />
+        <Menu
+          onPostIdChange={ this.handlePostIdChange }
+          visible={ this.state.menuVisible }
+        />
         <MenuToggle
           menuVisible={ this.state.menuVisible }
           handleToggle={ this.onMenuToggleClick }
