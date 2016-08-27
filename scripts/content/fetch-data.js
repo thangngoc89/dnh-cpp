@@ -5,7 +5,7 @@ import downloadPost from "./download-post"
 import simplifyUnicode from "vietnamese-unicode-toolkit"
 import fsp from "fs-promise"
 import { resolve } from "path"
-import _ from "lodash"
+import flatten from "tree-flatten"
 
 got("http://daynhauhoc.com/raw/29429")
   .then((res) => simplifyUnicode(res.body))
@@ -18,19 +18,16 @@ got("http://daynhauhoc.com/raw/29429")
   })
   .then((data) => generateSlug(data))
   .then((data) => {
-    const postIds = _.chain(data.children)
-      .flatMapDepth(obj => obj.hasOwnProperty("children") && obj.children, 2)
-      .map(obj => (obj.hasOwnProperty("children") && obj.children) || obj)
-      .flatMapDeep()
-      .filter(obj => obj.hasOwnProperty("id"))
-      .value()
+
+    const posts = flatten(data, "children")
+      .filter((post) => post.hasOwnProperty("id"))
 
     return Promise.all([
       fsp.writeJson(
         resolve(__dirname, "../../content/toc.json"),
         data
       ),
-      ...(postIds.map((node) => downloadPost(node))),
+      ...(posts.map((node) => downloadPost(node))),
     ])
   })
   .catch((error) => console.error(error))

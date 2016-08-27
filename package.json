@@ -63,7 +63,6 @@
     "invariant": "^2.1.1",
     "jest-cli": "^14.1.0",
     "json-loader": "^0.5.2",
-    "lodash": "^4.15.0",
     "phenomic": "^0.15.0",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
@@ -87,11 +86,13 @@
     "whatwg-fetch": "^1.0.0"
   },
   "dependencies": {
+    "TreeLib": "git+https://github.com/thangngoc89/TreeLib.git",
     "gh-pages": "^0.11.0",
     "got": "^6.3.0",
     "normalize.css": "^4.1.1",
     "omit-empty": "^0.4.1",
     "react-treebeard": "^1.1.2",
-    "speakingurl": "^9.0.0"
+    "speakingurl": "^9.0.0",
+    "tree-flatten": "^1.0.0"
   }
 }
