@@ -36,6 +36,9 @@ body {
   }
 }
 
+:global .avatar {
+  display: hidden;
+}
 /*
  * Local styles
  */
