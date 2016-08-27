@@ -43,14 +43,16 @@ export default class Menu extends Component {
     })
 
     return (
-      <Scrollbars className={ wrapperClass }>
-        <Treebeard
-          style={ treeStyle }
-          data={ data }
-          decorators={ decorators }
-          onToggle={ this.handleOnToggle }
-        />
-      </Scrollbars>
+      <div className={ wrapperClass }>
+        <Scrollbars>
+          <Treebeard
+            style={ treeStyle }
+            data={ data }
+            decorators={ decorators }
+            onToggle={ this.handleOnToggle }
+          />
+        </Scrollbars>
+      </div>
     )
   }
 }
