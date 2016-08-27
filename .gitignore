@@ -5,3 +5,4 @@ dist
 content/*
 !content/404.md
 !content/index.md
+!content/index.real
