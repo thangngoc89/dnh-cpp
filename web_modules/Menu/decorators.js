@@ -47,6 +47,6 @@ Header.propTypes = {
 }
 export default {
   ...decorators,
-  Toggle,
+  // Toggle,
   Header,
 }

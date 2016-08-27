@@ -79,7 +79,7 @@ export default {
       },
       subtree: {
         listStyle: "none",
-        paddingLeft: "19px",
+        paddingLeft: "15px",
       },
       loading: {
         color: "#E2C089",

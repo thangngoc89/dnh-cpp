@@ -420,6 +420,7 @@ Object {
   ],
   "level": 0,
   "name": "Khóa học C++",
+  "path": "/",
   "toggled": true
 }
 `;
