@@ -2,7 +2,6 @@
   "name": "Khóa học C++",
   "toggled": true,
   "level": 0,
-  "id": 24016,
   "path": "/",
   "children": [
     {
@@ -29,9 +28,9 @@
           "path": "0/3-cac-cong-doan-phat-trien-cua-mot-chuong-trinh-c"
         },
         {
-          "name": "0.4 Giới thiệu môi trường phát triển ứng dụng C++",
+          "name": "0.4 Giới thiệu môi trường phát tri���n ứng dụng C++",
           "id": 29503,
-          "path": "0/4-gioi-thieu-moi-truong-phat-trien-ung-dung-c"
+          "path": "0/4-gioi-thieu-moi-truong-phat-tri-n-ung-dung-c"
         },
         {
           "name": "0.5 Cài đặt IDE để lập trình C++",
@@ -369,8 +368,9 @@
           "path": "9/1-structs"
         },
         {
-          "name": "9.2 Struct and pointer",
-          "level": 2
+          "name": "9.2 Structs and pointer",
+          "id": 33521,
+          "path": "9/2-structs-and-pointer"
         }
       ],
       "level": 1

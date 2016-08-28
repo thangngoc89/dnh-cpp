@@ -18,6 +18,15 @@
         {
             "taskName": "test",
             "args": ["run", "test"]
+        },
+        {
+            "taskName": "start",
+            "args": ["run", "start"],
+            "isWatching": true
+        },
+        {
+            "taskName": "build",
+            "args": ["run", "build"]
         }
     ]
 }
