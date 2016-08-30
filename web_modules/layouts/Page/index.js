@@ -20,6 +20,19 @@ export default class Page extends Component {
     metadata: PropTypes.object.isRequired,
   };
 
+  componentDidMount() {
+    const DiscourseEmbed = window.DiscourseEmbed = {
+      discourseUrl: "http://daynhauhoc.com/",
+      topicId: this.props.head.id || 24016,
+    }
+
+    const d = document.createElement("script")
+    d.type = "text/javascript"
+    d.async = true
+    d.src = DiscourseEmbed.discourseUrl + "javascripts/embed.js"
+    document.getElementsByTagName("body")[0].appendChild(d)
+  }
+
   render() {
     const {
       pkg,
@@ -34,7 +47,7 @@ export default class Page extends Component {
 
     invariant(
       typeof head.title === "string",
-      `Your page '${ __filename }' needs a title`
+      `Your page "${ __filename }" needs a title`
     )
 
     const metaTitle = head.metaTitle ? head.metaTitle : head.title
@@ -70,6 +83,7 @@ export default class Page extends Component {
             <BodyContainer>{ body }</BodyContainer>
           }
         </article>
+        <div id="discourse-comments">Loading comments...</div>
       </div>
     )
   }

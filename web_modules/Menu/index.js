@@ -3,7 +3,6 @@ import styles from "./index.css"
 import { Treebeard } from "react-treebeard"
 import treeStyle from "./treeStyle"
 import decorators from "./decorators"
-// import Link from "./LinkWithActiveClass"
 import data from "../../content/toc.json"
 import { browserHistory } from "phenomic/lib/client"
 import { Scrollbars } from "react-custom-scrollbars"
@@ -26,7 +25,7 @@ export default class Menu extends Component {
     }
 
     node.active = true
-    console.log(node)
+
     if (node.children) {
       node.toggled = toggled
     }
