@@ -17,6 +17,7 @@
     "automock": false
   },
   "phenomic": {
+    "CNAME": true,
     "assets": false
   },
   "eslintConfig": {
