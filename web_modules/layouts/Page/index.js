@@ -83,7 +83,7 @@ export default class Page extends Component {
             <BodyContainer>{ body }</BodyContainer>
           }
         </article>
-        <div id="discourse-comments">Loading comments...</div>
+        <div id="discourse-comments" />
       </div>
     )
   }
