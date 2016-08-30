@@ -34,10 +34,6 @@ export default class Layout extends Component {
     })
   }
 
-  handlePostIdChange = (postId) => {
-    this.setState({ postId })
-  }
-
   render() {
     const {
       pkg,
@@ -56,15 +52,10 @@ export default class Layout extends Component {
           }) }
         >
           {
-            React.cloneElement(
-              this.props.children, { postId: this.state.postId }
-            )
+            React.cloneElement(this.props.children)
           }
         </div>
-        <Menu
-          onPostIdChange={ this.handlePostIdChange }
-          visible={ this.state.menuVisible }
-        />
+        <Menu visible={ this.state.menuVisible } />
         <MenuToggle
           menuVisible={ this.state.menuVisible }
           handleToggle={ this.onMenuToggleClick }

@@ -3,7 +3,6 @@ import styles from "./index.css"
 import { Treebeard } from "react-treebeard"
 import treeStyle from "./treeStyle"
 import decorators from "./decorators"
-// import Link from "./LinkWithActiveClass"
 import data from "../../content/toc.json"
 import { browserHistory } from "phenomic/lib/client"
 import { Scrollbars } from "react-custom-scrollbars"
@@ -12,7 +11,6 @@ const cx = require("classnames/bind").bind(styles)
 export default class Menu extends Component {
   static propTypes = {
     visible: PropTypes.bool.isRequired,
-    onPostIdChange: PropTypes.func.isRequired,
   };
 
   constructor(props) {
@@ -35,7 +33,6 @@ export default class Menu extends Component {
 
     if (node.path) {
       browserHistory.push(node.path)
-      this.onPostIdChange(node.id)
     }
   }
 
