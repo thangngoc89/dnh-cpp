@@ -16,6 +16,7 @@ export default function downloadPost(post) {
 ${ JSON.stringify({
   title: post.name,
   route: post.path,
+  id: post.id,
 }) }
 ---
 

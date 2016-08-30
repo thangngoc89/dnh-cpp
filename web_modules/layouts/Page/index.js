@@ -21,18 +21,16 @@ export default class Page extends Component {
   };
 
   componentDidMount() {
-    window.DiscourseEmbed = {
+    const DiscourseEmbed = window.DiscourseEmbed = {
       discourseUrl: "http://daynhauhoc.com/",
-      topicId: 12345,
+      topicId: this.props.head.id || 24016,
     }
 
     const d = document.createElement("script")
     d.type = "text/javascript"
     d.async = true
-    d.src = window.DiscourseEmbed.discourseUrl + "javascripts/embed.js"
-
-    // eslint-disable-next-line
-    // (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(d)
+    d.src = DiscourseEmbed.discourseUrl + "javascripts/embed.js"
+    document.getElementsByTagName("body")[0].appendChild(d)
   }
 
   render() {
@@ -49,7 +47,7 @@ export default class Page extends Component {
 
     invariant(
       typeof head.title === "string",
-      `Your page '${ __filename }' needs a title`
+      `Your page "${ __filename }" needs a title`
     )
 
     const metaTitle = head.metaTitle ? head.metaTitle : head.title
@@ -85,7 +83,7 @@ export default class Page extends Component {
             <BodyContainer>{ body }</BodyContainer>
           }
         </article>
-        <div id="discourse-comments" />
+        <div id="discourse-comments">Loading comments...</div>
       </div>
     )
   }

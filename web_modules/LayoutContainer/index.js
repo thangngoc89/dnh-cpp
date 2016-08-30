@@ -25,7 +25,7 @@ export default class Layout extends Component {
 
     this.state = {
       menuVisible: true,
-      postId: 0,
+      postId: 24016,
     }
   }
   onMenuToggleClick = () => {
