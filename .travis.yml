@@ -12,7 +12,6 @@ env:
 before_install:
   - npm prune
 script:
-  - cd node_modules/velocity-react && npm install && cd ../../
   - npm test
   - npm run build
 before_deploy:
