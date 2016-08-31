@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 import Menu from "../Menu"
@@ -42,6 +43,24 @@ export default class Layout extends Component {
     return (
       <div className={ styles.docLayout }>
         <Helmet
+          link={ [
+            {
+              rel: "icon",
+              type: "image/png",
+              sizes: "144x144",
+              href: "//daynhauhoc.s3.amazonaws.com/36ee34de6c73f268424fceaef858c5428d8fb2a976.ico",
+            },
+            {
+              rel: "icon",
+              type: "image/png",
+              href: "//daynhauhoc.s3.amazonaws.com/352ac0c01c6e4e15be7ee46da53668513fd4e93736.png",
+            },
+            {
+              rel: "apple-touch-icon",
+              type: "image/png",
+              href: "//daynhauhoc.s3.amazonaws.com/352ac0c01c6e4e15be7ee46da53668513fd4e93736.png",
+            },
+          ] }
           meta={ [
             { property: "og:site_name", content: pkg.name },
           ] }
