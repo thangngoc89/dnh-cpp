@@ -18,7 +18,8 @@
   },
   "phenomic": {
     "CNAME": true,
-    "assets": false
+    "assets": false,
+    "devPort": 5353
   },
   "eslintConfig": {
     "parser": "babel-eslint",
