@@ -25,13 +25,26 @@ export default class Layout extends Component {
     super(props)
 
     this.state = {
-      menuVisible: true,
+      menuVisible: false,
       postId: 24016,
     }
   }
+
+  componentDidMount() {
+    // Open menu by default on large screen
+    if (window.matchMedia("screen and (min-width: 64rem)").matches) {
+      this.openMenu()
+    }
+  }
+
   onMenuToggleClick = () => {
     this.setState({
       menuVisible: !this.state.menuVisible,
+    })
+  }
+  openMenu = () => {
+    this.setState({
+      menuVisible: true,
     })
   }
 
@@ -79,6 +92,9 @@ export default class Layout extends Component {
           menuVisible={ this.state.menuVisible }
           handleToggle={ this.onMenuToggleClick }
         />
+        {
+          this.state.menuVisible && <div className={ styles.backdrop } />
+        }
       </div>
     )
   }

@@ -3,9 +3,20 @@
 }
 
 .toggle {
-  display: none;
+  display: block;
   box-sizing: content-box;
   transition: width 1ms linear 250ms, background-color 1ms linear 250ms, color 400ms linear;
+  width: calc(var(--size) + 12px);
+  height: calc(var(--size) + 12px);
+  line-height: var(--size);
+  position: fixed;
+  padding-left: 24px;
+  left: 0;
+  bottom: 0;
+  color: var(--colorBlack);
+  z-index: 10;
+  cursor: pointer;
+  background: transparent;
 
   & svg {
     width: 20px;
@@ -17,20 +28,6 @@
     fill: var(--colorAccent);
   }
 
-  @media (min-width: 769px) {
-    display: block;
-    width: calc(var(--size) + 12px);
-    height: calc(var(--size) + 12px);
-    line-height: var(--size);
-    position: fixed;
-    padding-left: 24px;
-    left: 0;
-    bottom: 0;
-    color: var(--colorBlack);
-    z-index: 10;
-    cursor: pointer;
-    background: transparent;
-  }
 }
 
 .toggleVisible {
