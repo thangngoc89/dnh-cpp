@@ -100,7 +100,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  overflow-y: hidden;
+  overflow-y: auto;
   display: block;
   transform: translate3d(-var(--navWidth), 0, 0);
   transition: all 250ms ease-in;
