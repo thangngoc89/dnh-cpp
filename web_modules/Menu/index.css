@@ -94,26 +94,25 @@
   transition: background-color 200ms linear, color 500ms linear;
 }
 
-@media (--lg) {
-  .menu {
-    width: var(--navWidth);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    overflow-y: hidden;
+.menu {
+  width: var(--navWidth);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: hidden;
+  display: block;
+  transform: translate3d(-var(--navWidth), 0, 0);
+  transition: all 250ms ease-in;
+  background: #fff;
+}
+
+.menuVisible {
+  transform: translate3d(0, 0, 0);
+
+  &::after {
+    content: '';
     display: block;
-    transform: translate3d(-var(--navWidth), 0, 0);
-    transition: all 250ms ease-in;
-  }
-
-  .menuVisible {
-    transform: translate3d(0, 0, 0);
-
-    &::after {
-      content: '';
-      display: block;
-      height: 64px;
-    }
+    height: 64px;
   }
 }

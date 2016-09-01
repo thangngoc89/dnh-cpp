@@ -17,7 +17,7 @@
     fill: var(--colorAccent);
   }
 
-  @media (min-width: 769px) {
+  /*@media (min-width: 769px) {*/
     display: block;
     width: calc(var(--size) + 12px);
     height: calc(var(--size) + 12px);
@@ -30,7 +30,7 @@
     z-index: 10;
     cursor: pointer;
     background: transparent;
-  }
+  /*}*/
 }
 
 .toggleVisible {
