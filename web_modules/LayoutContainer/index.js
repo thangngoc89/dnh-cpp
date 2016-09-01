@@ -27,7 +27,6 @@ export default class Layout extends Component {
 
     this.state = {
       menuVisible: false,
-      postId: 24016,
     }
   }
 
