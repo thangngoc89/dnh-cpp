@@ -110,6 +110,14 @@
 .menuVisible {
   transform: translate3d(0, 0, 0);
 
+  /* Create an overlay */
+  z-index: 10;
+  outline: 9999px solid rgba(0,0,0,0.5);
+
+  @media (--lg) {
+    outline: none;
+  }
+
   &::after {
     content: '';
     display: block;
