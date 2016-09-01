@@ -1,4 +1,5 @@
 /* eslint-disable max-len */
+/* eslint-disable react/jsx-handler-names */
 import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 import Menu from "../Menu"
@@ -93,7 +94,11 @@ export default class Layout extends Component {
           handleToggle={ this.onMenuToggleClick }
         />
         {
-          this.state.menuVisible && <div className={ styles.backdrop } />
+          this.state.menuVisible &&
+          <div
+            className={ styles.backdrop }
+            onClick={ this.onMenuToggleClick }
+          />
         }
       </div>
     )
