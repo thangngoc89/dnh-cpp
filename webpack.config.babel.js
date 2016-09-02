@@ -5,10 +5,17 @@ import ExtractTextPlugin from "extract-text-webpack-plugin"
 import { phenomicLoader } from "phenomic"
 
 import pkg from "./package.json"
+import StatsPlugin from "stats-webpack-plugin"
 
 export const makeConfig = (config = {}) => {
+  console.log(config)
   return {
-    devtool: "#inline-source-map",
+    ...config.dev && {
+      devtool: "#cheap-module-eval-source-map",
+    },
+    ...config.production && {
+      devtool: "source-map",
+    },
     module: {
       noParse: /\.min\.js/,
       loaders: [
@@ -153,11 +160,27 @@ export const makeConfig = (config = {}) => {
     ],
 
     plugins: [
+      new StatsPlugin("stats.json", {
+        chunkModules: true,
+        exclude: [ /node_modules[\\\/]react/ ],
+      }),
       new ExtractTextPlugin("[name].[hash].css", { disable: config.dev }),
       ...config.production && [
         new webpack.optimize.DedupePlugin(),
         new webpack.optimize.UglifyJsPlugin(
-          { compress: { warnings: false } }
+          {
+            compress: {
+              warnings: false,
+              screw_ie8: true,
+            },
+            mangle: {
+              screw_ie8: true,
+            },
+            output: {
+              comments: false,
+              screw_ie8: true,
+            },
+          }
         ),
       ],
     ],
