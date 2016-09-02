@@ -8,7 +8,6 @@ import pkg from "./package.json"
 import StatsPlugin from "stats-webpack-plugin"
 
 export const makeConfig = (config = {}) => {
-  console.log(config)
   return {
     ...config.dev && {
       devtool: "#cheap-module-eval-source-map",
@@ -91,7 +90,6 @@ export const makeConfig = (config = {}) => {
 
     phenomic: {
       context: path.join(__dirname, config.source),
-      renderer: (html) => html,
       feedsOptions: {
         title: pkg.name,
         site_url: pkg.homepage,
@@ -188,7 +186,12 @@ export const makeConfig = (config = {}) => {
     output: {
       path: path.join(__dirname, config.destination),
       publicPath: config.baseUrl.pathname,
-      filename: "[name].[hash].js",
+      ...config.dev && {
+        filename: "[name].[hash].js",
+      },
+      ...config.production && {
+        filename: "[name].[chunkhash].js",
+      },
     },
 
     resolve: {
