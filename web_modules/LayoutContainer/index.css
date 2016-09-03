@@ -75,8 +75,9 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 0;
+  display: block;
 
   @media (--lg) {
-    background-color: transparent;
+    display: none;
   }
 }
