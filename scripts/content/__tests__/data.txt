@@ -10,13 +10,13 @@
 
 [0.4 Giới thiệu môi trường phát triển ứng dụng C++](http://daynhauhoc.com/t/gioi-thieu-moi-truong-phat-trien-ung-dung-c/29503)
 
-0.5 Hướng dẫn cài đặt một số IDE để lập trình C++ trên các nền tảng Window,Mac Os, Linux
+0.5 Cài đặt IDE để lập trình C++
 
 * [Cài đặt Visual Studio 2015 để lập trình C++ trên Windows](http://daynhauhoc.com/t/cai-dat-visual-studio-2015-de-lap-trinh-c-tren-windows/24768)
 
-* [Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X](http://daynhauhoc.com/t/huong-dan-cai-dat-xcode-de-lap-trinh-c-tren-mac-os-x/24606)
+* [Cài đặt Xcode để lập trình C++ trên Mac OS X](http://daynhauhoc.com/t/huong-dan-cai-dat-xcode-de-lap-trinh-c-tren-mac-os-x/24606)
 
-* [Cài đặt Code::blocks để lập trình C/C++ trên Ubuntu/Linux](http://daynhauhoc.com/t/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/24563)
+* [Cài đặt Code::blocks để lập trình C++ trên Ubuntu/Linux](http://daynhauhoc.com/t/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/24563)
 
 
 ### C++ cơ bản
@@ -141,9 +141,9 @@
 
 [9.1 Structs](http://daynhauhoc.com/t/kieu-cau-truc-structs/33291)
 
-9.2 Struct and pointer
+[9.2 Structs and pointer](http://daynhauhoc.com/t/structs-and-pointer/33521)
 
-### Nhập, xuất (Input & Output)
+### Nhập, xuất, streams (Input & Output)
 
 10.0 File, Stream trong C++
 
@@ -155,13 +155,15 @@
 
 10.4 Stream states & Stream validation
 
-### Một số thư viện thường dùng trong STL
+### Standard Template Library
 
-11.0 Vector
+[11.0 Giới thiệu về STL](http://daynhauhoc.com/t/gioi-thieu-ve-stl-c/34001)
 
-11.1 Stack (Ngăn xếp)
+[11.1 STL containers](http://daynhauhoc.com/t/standard-template-library-containers-stl-containers/34210)
 
-11.2 Queue (Hàng đợi)
+11.2 STL iterators
+
+11.3 STL algorithms
 
 ### Auto pointer
 

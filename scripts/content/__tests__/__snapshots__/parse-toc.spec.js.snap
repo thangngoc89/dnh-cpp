@@ -31,15 +31,14 @@ Object {
             },
             Object {
               "id": 24606,
-              "name": "Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X"
+              "name": "Cài đặt Xcode để lập trình C++ trên Mac OS X"
             },
             Object {
               "id": 24563,
-              "name": "Cài đặt Code::blocks để lập trình C/C++ trên Ubuntu/Linux"
+              "name": "Cài đặt Code::blocks để lập trình C++ trên Ubuntu/Linux"
             }
           ],
-          "level": 2,
-          "name": "0.5 Hướng dẫn cài đặt một số IDE để lập trình C++ trên các nền tảng Window,Mac Os, Linux"
+          "name": "0.5 Cài đặt IDE để lập trình C++"
         }
       ],
       "level": 1,
@@ -304,8 +303,8 @@ Object {
           "name": "9.1 Structs"
         },
         Object {
-          "level": 2,
-          "name": "9.2 Struct and pointer"
+          "id": 33521,
+          "name": "9.2 Structs and pointer"
         }
       ],
       "level": 1,
@@ -314,59 +313,53 @@ Object {
     Object {
       "children": Array [
         Object {
-          "level": 2,
           "name": "10.0 File, Stream trong C++"
         },
         Object {
-          "level": 2,
           "name": "10.1 Đọc dữ liệu từ file trong C++"
         },
         Object {
-          "level": 2,
           "name": "10.2 Ghi dữ liệu vào file trong C++"
         },
         Object {
-          "level": 2,
           "name": "10.3 Stream for string C++"
         },
         Object {
-          "level": 2,
           "name": "10.4 Stream states & Stream validation"
         }
       ],
       "level": 1,
-      "name": "Nhập, xuất (Input & Output)"
+      "name": "Nhập, xuất, streams (Input & Output)"
     },
     Object {
       "children": Array [
         Object {
-          "level": 2,
-          "name": "11.0 Vector"
+          "id": 34001,
+          "name": "11.0 Giới thiệu về STL"
         },
         Object {
-          "level": 2,
-          "name": "11.1 Stack (Ngăn xếp)"
+          "id": 34210,
+          "name": "11.1 STL containers"
         },
         Object {
-          "level": 2,
-          "name": "11.2 Queue (Hàng đợi)"
+          "name": "11.2 STL iterators"
+        },
+        Object {
+          "name": "11.3 STL algorithms"
         }
       ],
       "level": 1,
-      "name": "Một số thư viện thường dùng trong STL"
+      "name": "Standard Template Library"
     },
     Object {
       "children": Array [
         Object {
-          "level": 2,
           "name": "12.0 auto_ptr"
         },
         Object {
-          "level": 2,
           "name": "12.1 shared_ptr"
         },
         Object {
-          "level": 2,
           "name": "12.2 unique_ptr"
         }
       ],
@@ -376,23 +369,18 @@ Object {
     Object {
       "children": Array [
         Object {
-          "level": 2,
           "name": "13.0 Biến static"
         },
         Object {
-          "level": 2,
           "name": "13.1 Biến toàn cục, tại sao không nên sử dụng nhiều biến toàn cục"
         },
         Object {
-          "level": 2,
           "name": "13.2 Viết chương trình với nhiều file"
         },
         Object {
-          "level": 2,
           "name": "13.3 Tạo và sử dụng thư viện liên kết tĩnh"
         },
         Object {
-          "level": 2,
           "name": "13.4 Tạo và sử dụng thư viện liên kết động"
         }
       ],
@@ -402,15 +390,12 @@ Object {
     Object {
       "children": Array [
         Object {
-          "level": 2,
           "name": "14.0 Function template"
         },
         Object {
-          "level": 2,
           "name": "14.1 Lambda expression"
         },
         Object {
-          "level": 2,
           "name": "14.2 Xử lý ngoại lệ"
         }
       ],

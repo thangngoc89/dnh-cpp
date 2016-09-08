@@ -58,8 +58,7 @@ export default function processMd(data) {
         })
       }
       else {
-        headingPos = parseInt(name.slice(0, 1))
-
+        headingPos = parseInt(name.split(".")[0])
         tree.children[headingPos].children.push({
           name,
           // level: 2,
@@ -69,10 +68,10 @@ export default function processMd(data) {
     }
     else if (line.trim() !== "") {
       const name = line
-      headingPos = parseInt(name.substring(0, name.indexOf(".")))
+      headingPos = parseInt(name.split(".")[0])
       tree.children[headingPos].children.push({
         name,
-        level: 2,
+        // level: 2,
         children: [],
       })
     }
