@@ -18,7 +18,11 @@ export default class Menu extends Component {
   }
 
   handleOnToggle = (node, toggled) => {
-    if (!node.hasOwnProperty("path") && node.level !== 1) {
+    if (
+      !node.hasOwnProperty("path") &&
+      node.level !== 1 &&
+      !node.children
+    ) {
       return
     }
     if (this.state.cursor) {

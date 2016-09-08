@@ -26,8 +26,11 @@ Toggle.propTypes = {
 }
 
 const Header = ({ style, node }) => {
-  if (!node.hasOwnProperty("path") && node.level !== 1) {
-    console.log(node.name)
+  if (
+    !node.hasOwnProperty("path") &&
+    node.level !== 1 &&
+    !node.children
+  ) {
     return (
       <div style={ style.base }>
         <div
