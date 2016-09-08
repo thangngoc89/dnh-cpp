@@ -18,6 +18,9 @@ export default class Menu extends Component {
   }
 
   handleOnToggle = (node, toggled) => {
+    if (!node.hasOwnProperty("path") && node.level !== 1) {
+      return
+    }
     if (this.state.cursor) {
       // eslint-disable-next-line
       this.state.cursor.active = false
