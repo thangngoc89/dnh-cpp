@@ -22,7 +22,7 @@ export default {
         display: "block",
       },
       activeLink: {
-        background: "rgba(64,120,192,.02)",
+        background: "rgba(64, 120, 192, .1)",
         boxShadow: "inset -2px 0 #1abc9c",
       },
       toggle: {
@@ -72,6 +72,10 @@ export default {
         title: {
           lineHeight: "24px",
           verticalAlign: "middle",
+        },
+        titleNull: {
+          color: "rgba(51, 51, 51, 0.5)",
+          cursor: "no-drop",
         },
       },
       subtree: {
