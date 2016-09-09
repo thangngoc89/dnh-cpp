@@ -11,11 +11,12 @@
 #
 # Happy Coding!
 
-service: rebuild-dnh-cpp
+service: DnhCpp
 
 provider:
   name: aws
   runtime: nodejs4.3
+  memorySize: 128
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
 #    - Effect: "Allow"
@@ -31,21 +32,17 @@ provider:
 #          - - "arn:aws:s3:::"
 #            - "Ref" : "ServerlessDeploymentBucket"
 
-# you can overwrite defaults here
-#defaults:
-#  stage: dev
-#  region: us-east-1
-
 # you can add packaging information here
-#package:
+package:
 #  include:
 #    - include-me.js
-#  exclude:
-#    - exclude-me.js
+  exclude:
+    - src/
+    - local-run.js
 #  artifact: my-service-code.zip
 
 functions:
-  rebuild-dnh-cpp:
+  RebuildWebsite:
     handler: handler.run
     events:
       - schedule: rate(12 hours)

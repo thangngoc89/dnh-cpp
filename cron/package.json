@@ -1,0 +1,12 @@
+{
+  "name": "cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "travis-ci": "^2.1.1"
+  }
+}
