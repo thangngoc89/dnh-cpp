@@ -11,7 +11,9 @@
     "build": "phenomic build",
     "test": "jest",
     "fetch": "rm -rf content/generated && babel-node scripts/content/fetch-data.js",
-    "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-cpp.git --dist dist"
+    "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-cpp.git --dist dist",
+    "predeploy:cron": "babel cron/src/handler.js --out-file cron/handler.js",
+    "deploy:cron": "cd cron && serverless deploy"
   },
   "jest": {
     "automock": false
