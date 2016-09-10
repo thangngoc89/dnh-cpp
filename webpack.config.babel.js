@@ -2,7 +2,6 @@ import path from "path"
 
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
-import { phenomicLoader } from "phenomic"
 
 import pkg from "./package.json"
 import StatsPlugin from "stats-webpack-plugin"
@@ -21,7 +20,7 @@ export const makeConfig = (config = {}) => {
         {
           // phenomic requirement
           test: /\.md$/,
-          loader: phenomicLoader,
+          loader: "phenomic/lib/phenomic-loader",
         },
         {
           test: /\.json$/,

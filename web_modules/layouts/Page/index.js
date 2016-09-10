@@ -3,7 +3,7 @@ import Helmet from "react-helmet"
 import invariant from "invariant"
 import Header from "../../Header"
 import Dockable from "../../Dockable"
-import { BodyContainer } from "phenomic"
+import BodyContainer from "phenomic/lib/components/BodyContainer"
 import "./index.css"
 
 export default class Page extends Component {
