@@ -1,2 +1,4 @@
 dist
 node_modules
+cron/node_modules
+cron/handler.js

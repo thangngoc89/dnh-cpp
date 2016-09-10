@@ -1,6 +1,6 @@
 "use strict"
 
-var run = require("./handler").run
+const run = require("./handler").run
 
 run(null, null, (err, output) => {
   if (err) {
