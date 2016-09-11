@@ -5,7 +5,8 @@ import ExtractTextPlugin from "extract-text-webpack-plugin"
 
 import pkg from "./package.json"
 import StatsPlugin from "stats-webpack-plugin"
-
+import phenomicLoaderPresetDefault from "phenomic/lib/phenomic-loader-preset-default"
+import phenomicLoaderDescriptionPlugin from "phenomic/lib/phenomic-loader-plugin-markdown-init-head.description-property-from-content"
 export const makeConfig = (config = {}) => {
   return {
     ...config.dev && {
@@ -93,6 +94,10 @@ export const makeConfig = (config = {}) => {
         title: pkg.name,
         site_url: pkg.homepage,
       },
+      plugins: [
+        ...phenomicLoaderPresetDefault,
+        phenomicLoaderDescriptionPlugin,
+      ],
       feeds: {
         "feed.xml": {
           collectionOptions: {

@@ -35,7 +35,8 @@
     ],
     "rules": {
       "react/prefer-stateless-function": 0,
-      "react/jsx-no-literals": 0
+      "react/jsx-no-literals": 0,
+      "max-len": 0
     }
   },
   "eslintConfigRuleReact/prefer-stateless-function": "https://github.com/MoOx/phenomic/issues/46",
