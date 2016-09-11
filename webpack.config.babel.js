@@ -7,6 +7,8 @@ import pkg from "./package.json"
 import StatsPlugin from "stats-webpack-plugin"
 import phenomicLoaderPresetDefault from "phenomic/lib/phenomic-loader-preset-default"
 import phenomicLoaderDescriptionPlugin from "phenomic/lib/phenomic-loader-plugin-markdown-init-head.description-property-from-content"
+import addCodeHighlight from "./scripts/add-code-highlight.babel"
+
 export const makeConfig = (config = {}) => {
   return {
     ...config.dev && {
@@ -97,6 +99,7 @@ export const makeConfig = (config = {}) => {
       plugins: [
         ...phenomicLoaderPresetDefault,
         phenomicLoaderDescriptionPlugin,
+        addCodeHighlight,
       ],
       feeds: {
         "feed.xml": {
