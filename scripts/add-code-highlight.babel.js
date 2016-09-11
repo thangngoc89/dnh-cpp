@@ -1,9 +1,13 @@
 import rehype from "rehype"
 import highlight from "rehype-highlight"
+import removeLangAuto from "./remove-lang-auto"
 
 function addHighlight(html) {
-  html = html.replace(/<code class="lang-auto">/g, "<code>")
-  return rehype().use(highlight).process(html).toString()
+  return rehype()
+    .use(removeLangAuto)
+    .use(highlight)
+    .process(html)
+    .toString()
 }
 
 export default ({ result }) => {
