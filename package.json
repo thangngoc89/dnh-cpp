@@ -20,7 +20,7 @@
   },
   "phenomic": {
     "CNAME": true,
-    "assets": false,
+    "offline": true,
     "devPort": 5353
   },
   "eslintConfig": {
