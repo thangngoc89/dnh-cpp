@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { Route } from "react-router"
 
 import LayoutContainer from "../LayoutContainer"
-import PhenomicPageContainer from "phenomic/lib/PageContainer"
+import { PageContainer as PhenomicPageContainer } from "phenomic"
 
 import Page from "../layouts/Page"
 import PageError from "../layouts/PageError"

@@ -5,8 +5,8 @@ import ExtractTextPlugin from "extract-text-webpack-plugin"
 
 import pkg from "./package.json"
 import StatsPlugin from "stats-webpack-plugin"
-import phenomicLoaderPresetDefault from "phenomic/lib/phenomic-loader-preset-default"
-import phenomicLoaderDescriptionPlugin from "phenomic/lib/phenomic-loader-plugin-markdown-init-head.description-property-from-content"
+import phenomicLoaderPresetDefault from "phenomic/lib/loader-preset-default"
+import phenomicLoaderDescriptionPlugin from "phenomic/lib/loader-plugin-markdown-init-head.description-property-from-content"
 import addCodeHighlight from "./scripts/add-code-highlight.babel"
 
 export const makeConfig = (config = {}) => {
@@ -23,7 +23,7 @@ export const makeConfig = (config = {}) => {
         {
           // phenomic requirement
           test: /\.md$/,
-          loader: "phenomic/lib/phenomic-loader",
+          loader: "phenomic/lib/loader",
         },
         {
           test: /\.json$/,
