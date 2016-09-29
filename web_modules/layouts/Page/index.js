@@ -22,7 +22,7 @@ export default class Page extends Component {
 
   componentDidMount() {
     const DiscourseEmbed = window.DiscourseEmbed = {
-      discourseUrl: "http://daynhauhoc.com/",
+      discourseUrl: "//daynhauhoc.com/",
       topicId: this.props.head.id || 24016,
     }
 
