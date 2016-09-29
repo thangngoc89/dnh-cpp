@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "dnh-cpp",
-  "homepage": "http://cpp.daynhauhoc.com",
+  "homepage": "https://cpp.daynhauhoc.com",
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",
@@ -21,6 +21,7 @@
   "phenomic": {
     "CNAME": true,
     "assets": false,
+    "offline": true,
     "devPort": 5353
   },
   "eslintConfig": {
