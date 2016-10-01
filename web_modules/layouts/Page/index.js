@@ -3,6 +3,7 @@ import Helmet from "react-helmet"
 import invariant from "invariant"
 import Header from "../../Header"
 import Dockable from "../../Dockable"
+import Comments from "./Comments"
 import BodyContainer from "phenomic/lib/components/BodyContainer"
 import "./index.css"
 
@@ -19,21 +20,6 @@ export default class Page extends Component {
   static contextTypes = {
     metadata: PropTypes.object.isRequired,
   };
-
-  componentDidMount() {
-    window.DiscourseEmbed = undefined
-
-    const DiscourseEmbed = window.DiscourseEmbed = {
-      discourseUrl: "//daynhauhoc.com/",
-      topicId: this.props.head.id || 24016,
-    }
-
-    const d = document.createElement("script")
-    d.type = "text/javascript"
-    d.async = true
-    d.src = DiscourseEmbed.discourseUrl + "javascripts/embed.js"
-    document.getElementsByTagName("body")[0].appendChild(d)
-  }
 
   render() {
     const {
@@ -85,7 +71,7 @@ export default class Page extends Component {
             <BodyContainer>{ body }</BodyContainer>
           }
         </article>
-        <div id="discourse-comments" />
+        <Comments topicId={ this.props.head.id } />
       </div>
     )
   }
