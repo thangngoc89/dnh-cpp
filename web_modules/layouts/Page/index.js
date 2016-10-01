@@ -21,6 +21,8 @@ export default class Page extends Component {
   };
 
   componentDidMount() {
+    window.DiscourseEmbed = undefined
+
     const DiscourseEmbed = window.DiscourseEmbed = {
       discourseUrl: "//daynhauhoc.com/",
       topicId: this.props.head.id || 24016,
