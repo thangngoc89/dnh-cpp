@@ -6,6 +6,7 @@ import Dockable from "../../Dockable"
 import Comments from "./Comments"
 import BodyContainer from "phenomic/lib/components/BodyContainer"
 import "./index.css"
+import styles from "./sell.css"
 
 export default class Page extends Component {
 
@@ -71,6 +72,9 @@ export default class Page extends Component {
             <BodyContainer>{ body }</BodyContainer>
           }
         </article>
+        <section className={ styles.wrap }>
+          Mua khóa học ngay
+        </section>
         <Comments topicId={ this.props.head.id } />
       </div>
     )
