@@ -101,16 +101,6 @@ export const makeConfig = (config = {}) => {
         phenomicLoaderDescriptionPlugin,
         addCodeHighlight,
       ],
-      feeds: {
-        "feed.xml": {
-          collectionOptions: {
-            filter: { layout: "Post" },
-            sort: "date",
-            reverse: true,
-            limit: 20,
-          },
-        },
-      },
     },
 
     postcss: () => [
