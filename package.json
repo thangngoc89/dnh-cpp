@@ -22,7 +22,8 @@
     "CNAME": true,
     "offline": true,
     "assets": false,
-    "devPort": 5353
+    "devPort": 5353,
+    "cache": true
   },
   "eslintConfig": {
     "parser": "babel-eslint",
